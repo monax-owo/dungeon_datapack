@@ -1,0 +1,5 @@
+function money:admin/load
+function money:death/load
+
+scoreboard objectives add money dummy
+scoreboard objectives setdisplay sidebar.team.gold money

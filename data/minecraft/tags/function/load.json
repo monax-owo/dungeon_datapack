@@ -1,6 +1,7 @@
 {
   "values": [
     "#util:load",
+    "#money:load",
     "#dun:load"
   ]
 }
