@@ -10,9 +10,8 @@ def main():
     with open("items.json") as f:
         table = json.load(f)
 
-    if not os.path.exists(OUTDIR) and os.path.isdir(OUTDIR):
+    if not os.path.exists(OUTDIR) and not os.path.isdir(OUTDIR):
         os.makedirs(OUTDIR)
-        print("dir")
 
     for v in table["items"]:
         # gen lt
