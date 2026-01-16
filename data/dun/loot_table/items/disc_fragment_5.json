@@ -12,10 +12,15 @@
               "components": {
                 "minecraft:custom_data": {
                   "dun": {
-                    "tier": 1
+                    "tier": 2,
+                    "price": 500
                   }
                 }
               }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "何かの破片"
             }
           ]
         }

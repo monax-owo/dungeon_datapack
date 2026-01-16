@@ -15,19 +15,24 @@ def main():
 
     for v in table["items"]:
         # gen lt
-        loot_table_str = gen_lt(v["id"], v["tier"], v["name"], v["lore"])
+        loot_table_str = gen_lt(v["id"], v["tier"], v["price"], v["name"], v["lore"])
         formatted_id = str(v["id"]).removeprefix("minecraft:")
         with open(f"{OUTDIR}/{formatted_id}.json", mode="w") as f:
-            json.dump(loot_table_str, f, indent=2)
+            json.dump(loot_table_str, f, indent=2, ensure_ascii=False)
 
 
-def gen_lt(id, tier: int, name: str, lore: object) -> Optional[dict[str]]:
+def gen_lt(id, tier: int, price: int, name: str, lore: object) -> Optional[dict[str]]:
     if id is None:
+        print("id is None")
         return None
 
     if tier is None:
         print("tier is None")
         tier = 1
+
+    if price is None:
+        print("price is None")
+        return None
 
     data = {
         "pools": [
@@ -40,7 +45,7 @@ def gen_lt(id, tier: int, name: str, lore: object) -> Optional[dict[str]]:
                         "functions": [
                             {
                                 "function": "minecraft:set_components",
-                                "components": {"minecraft:custom_data": {"dun": {"tier": tier}}},
+                                "components": {"minecraft:custom_data": {"dun": {"tier": tier, "price": price}}},
                             }
                         ],
                     }

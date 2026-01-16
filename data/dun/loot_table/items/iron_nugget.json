@@ -12,7 +12,8 @@
               "components": {
                 "minecraft:custom_data": {
                   "dun": {
-                    "tier": 1
+                    "tier": 1,
+                    "price": 30
                   }
                 }
               }

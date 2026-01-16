@@ -12,17 +12,15 @@
               "components": {
                 "minecraft:custom_data": {
                   "dun": {
-                    "tier": 1
+                    "tier": 1,
+                    "price": 80
                   }
-                },
-                "minecraft:lore": [
-                  "lore"
-                ]
+                }
               }
             },
             {
               "function": "minecraft:set_name",
-              "name": "name"
+              "name": "干からびたスライム"
             }
           ]
         }

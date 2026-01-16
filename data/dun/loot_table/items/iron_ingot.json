@@ -12,10 +12,15 @@
               "components": {
                 "minecraft:custom_data": {
                   "dun": {
-                    "tier": 1
+                    "tier": 2,
+                    "price": 300
                   }
                 }
               }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "赤い粉"
             }
           ]
         }

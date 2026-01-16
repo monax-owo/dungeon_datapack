@@ -12,10 +12,15 @@
               "components": {
                 "minecraft:custom_data": {
                   "dun": {
-                    "tier": 1
+                    "tier": 9,
+                    "price": 10000
                   }
                 }
               }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "幸運の壺"
             }
           ]
         }
