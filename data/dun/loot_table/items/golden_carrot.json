@@ -16,7 +16,10 @@
                     "price": 600
                   }
                 },
-                "minecraft:custom_name": "ピカピカニンジン"
+                "minecraft:custom_name": {
+                  "text": "ピカピカニンジン",
+                  "italic": false
+                }
               }
             }
           ]

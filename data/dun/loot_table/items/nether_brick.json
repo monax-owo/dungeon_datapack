@@ -16,7 +16,10 @@
                     "price": 60
                   }
                 },
-                "minecraft:custom_name": "羊羹"
+                "minecraft:custom_name": {
+                  "text": "羊羹",
+                  "italic": false
+                }
               }
             }
           ]

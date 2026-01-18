@@ -16,7 +16,10 @@
                     "price": 1400
                   }
                 },
-                "minecraft:custom_name": "装飾の施された鍵"
+                "minecraft:custom_name": {
+                  "text": "装飾の施された鍵",
+                  "italic": false
+                }
               }
             }
           ]

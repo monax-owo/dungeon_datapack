@@ -16,7 +16,10 @@
                     "price": 80
                   }
                 },
-                "minecraft:custom_name": "干からびたスライム"
+                "minecraft:custom_name": {
+                  "text": "干からびたスライム",
+                  "italic": false
+                }
               }
             }
           ]

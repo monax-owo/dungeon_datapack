@@ -16,7 +16,10 @@
                     "price": 700
                   }
                 },
-                "minecraft:custom_name": "普通の鍵"
+                "minecraft:custom_name": {
+                  "text": "普通の鍵",
+                  "italic": false
+                }
               }
             }
           ]

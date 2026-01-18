@@ -16,7 +16,10 @@
                     "price": 700
                   }
                 },
-                "minecraft:custom_name": "干上がった海洋の心"
+                "minecraft:custom_name": {
+                  "text": "干上がった海洋の心",
+                  "italic": false
+                }
               }
             }
           ]

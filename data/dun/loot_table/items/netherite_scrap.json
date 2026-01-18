@@ -16,7 +16,10 @@
                     "price": 2500
                   }
                 },
-                "minecraft:custom_name": "義理チョコ"
+                "minecraft:custom_name": {
+                  "text": "義理チョコ",
+                  "italic": false
+                }
               }
             }
           ]

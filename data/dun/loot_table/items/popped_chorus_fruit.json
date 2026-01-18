@@ -16,7 +16,10 @@
                     "price": 200
                   }
                 },
-                "minecraft:custom_name": "紫キャベツ"
+                "minecraft:custom_name": {
+                  "text": "紫キャベツ",
+                  "italic": false
+                }
               }
             }
           ]

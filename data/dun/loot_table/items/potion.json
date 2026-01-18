@@ -16,7 +16,10 @@
                     "price": 800
                   }
                 },
-                "minecraft:custom_name": "ムキムキジュース"
+                "minecraft:custom_name": {
+                  "text": "ムキムキジュース",
+                  "italic": false
+                }
               }
             }
           ]

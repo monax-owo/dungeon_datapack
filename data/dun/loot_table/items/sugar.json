@@ -16,7 +16,10 @@
                     "price": 20
                   }
                 },
-                "minecraft:custom_name": "粉"
+                "minecraft:custom_name": {
+                  "text": "粉",
+                  "italic": false
+                }
               }
             }
           ]

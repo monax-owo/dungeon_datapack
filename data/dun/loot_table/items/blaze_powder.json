@@ -16,7 +16,10 @@
                     "price": 300
                   }
                 },
-                "minecraft:custom_name": "チキンナゲット(衣)"
+                "minecraft:custom_name": {
+                  "text": "チキンナゲット(衣)",
+                  "italic": false
+                }
               }
             }
           ]

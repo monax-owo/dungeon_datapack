@@ -16,7 +16,10 @@
                     "price": 50
                   }
                 },
-                "minecraft:custom_name": "カタツムリの殻"
+                "minecraft:custom_name": {
+                  "text": "カタツムリの殻",
+                  "italic": false
+                }
               }
             }
           ]

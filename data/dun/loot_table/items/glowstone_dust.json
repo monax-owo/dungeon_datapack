@@ -16,7 +16,10 @@
                     "price": 400
                   }
                 },
-                "minecraft:custom_name": "きれいな粉"
+                "minecraft:custom_name": {
+                  "text": "きれいな粉",
+                  "italic": false
+                }
               }
             }
           ]

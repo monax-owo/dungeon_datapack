@@ -16,7 +16,10 @@
                     "price": 500
                   }
                 },
-                "minecraft:custom_name": "何かの破片"
+                "minecraft:custom_name": {
+                  "text": "何かの破片",
+                  "italic": false
+                }
               }
             }
           ]

@@ -16,7 +16,10 @@
                     "price": 10
                   }
                 },
-                "minecraft:custom_name": "うさぎのぬいぐるみ"
+                "minecraft:custom_name": {
+                  "text": "うさぎのぬいぐるみ",
+                  "italic": false
+                }
               }
             }
           ]

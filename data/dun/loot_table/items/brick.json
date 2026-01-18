@@ -16,7 +16,10 @@
                     "price": 40
                   }
                 },
-                "minecraft:custom_name": "生チョコレート"
+                "minecraft:custom_name": {
+                  "text": "生チョコレート",
+                  "italic": false
+                }
               }
             }
           ]

@@ -16,7 +16,10 @@
                     "price": 100
                   }
                 },
-                "minecraft:custom_name": "琥珀"
+                "minecraft:custom_name": {
+                  "text": "琥珀",
+                  "italic": false
+                }
               }
             }
           ]

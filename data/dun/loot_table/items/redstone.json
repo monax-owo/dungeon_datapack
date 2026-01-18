@@ -16,7 +16,10 @@
                     "price": 300
                   }
                 },
-                "minecraft:custom_name": "赤い粉"
+                "minecraft:custom_name": {
+                  "text": "赤い粉",
+                  "italic": false
+                }
               }
             }
           ]

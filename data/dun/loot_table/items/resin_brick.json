@@ -16,7 +16,10 @@
                     "price": 50
                   }
                 },
-                "minecraft:custom_name": "グミ(エナジードリンク味)"
+                "minecraft:custom_name": {
+                  "text": "グミ(エナジードリンク味)",
+                  "italic": false
+                }
               }
             }
           ]

@@ -16,7 +16,10 @@
                     "price": 10000
                   }
                 },
-                "minecraft:custom_name": "幸運の壺"
+                "minecraft:custom_name": {
+                  "text": "幸運の壺",
+                  "italic": false
+                }
               }
             }
           ]
