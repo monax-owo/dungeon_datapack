@@ -1,0 +1,14 @@
+# {text}
+
+execute unless data entity @s SelectedItem.components."minecraft:custom_data".looting run return fail
+execute if data entity @s SelectedItem.components."minecraft:custom_data"{looting:{searched:true}} run return fail
+
+execute if data entity @s SelectedItem.components."minecraft:custom_data"{looting:{tier:1b}} run item modify entity @s weapon.mainhand looting:1
+execute if data entity @s SelectedItem.components."minecraft:custom_data"{looting:{tier:2b}} run item modify entity @s weapon.mainhand looting:2
+execute if data entity @s SelectedItem.components."minecraft:custom_data"{looting:{tier:3b}} run item modify entity @s weapon.mainhand looting:3
+execute if data entity @s SelectedItem.components."minecraft:custom_data"{looting:{tier:4b}} run item modify entity @s weapon.mainhand looting:4
+execute if data entity @s SelectedItem.components."minecraft:custom_data"{looting:{tier:5b}} run item modify entity @s weapon.mainhand looting:5
+
+tellraw @s {entity:"@s",nbt:"SelectedItem.components.minecraft:custom_name",interpret:true} 
+
+item modify entity @s weapon.mainhand {function:"set_custom_data",tag:{looting:{searched:true}}}

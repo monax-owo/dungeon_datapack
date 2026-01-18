@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "custom_data": {
+                  "looting": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "looting:on_hand"
+  }
+}
