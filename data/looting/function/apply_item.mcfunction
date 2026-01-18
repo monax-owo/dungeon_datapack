@@ -9,6 +9,8 @@ execute if data entity @s SelectedItem.components."minecraft:custom_data"{lootin
 execute if data entity @s SelectedItem.components."minecraft:custom_data"{looting:{tier:4b}} run item modify entity @s weapon.mainhand looting:4
 execute if data entity @s SelectedItem.components."minecraft:custom_data"{looting:{tier:5b}} run item modify entity @s weapon.mainhand looting:5
 
+item modify entity @s weapon.mainhand {function:"set_lore",entity:"this",lore:[{entity:"@s",nbt:"SelectedItem.components.minecraft:custom_data.looting.lore",interpret:true,color:white}],mode:"replace_all"}
+
 tellraw @s {entity:"@s",nbt:"SelectedItem.components.minecraft:custom_name",interpret:true} 
 
 item modify entity @s weapon.mainhand {function:"set_custom_data",tag:{looting:{searched:true}}}
