@@ -6,12 +6,16 @@ const ROOT_DIR = "../";
 const LOOT_TABLE_DIR = path.join(ROOT_DIR, "data/dun/loot_table");
 const ITEMS_FILE_PATH = "items.json";
 const ALL_ITEMS_FILENAME = "all_items.json";
+const CHEST_FILENAME = "chest.json";
 const DEFAULT_NAME = "?????";
+
+const CHEST_ROLL = 6;
 
 interface Item {
   id: string;
   tier: number;
   price: number;
+  weight?: number;
   name: string;
   lore?: string | object;
 }
@@ -23,19 +27,21 @@ interface ItemsTable {
 interface LootTable<T> {
   pools: {
     rolls: number;
-    entries: [T];
+    entries: T[];
   }[];
 }
 
 interface ItemEntry {
   type: string;
   name: string;
-  functions: [any];
+  functions: any[];
+  weight?: number;
 }
 
 interface LootTableEntry {
   type: string;
   value: string;
+  weight?: number;
 }
 
 async function main() {
@@ -44,10 +50,14 @@ async function main() {
       await fs.readFile(ITEMS_FILE_PATH, "utf-8"),
     );
 
-    const all_loot_table_data: LootTable<LootTableEntry> = { pools: [] };
+    const all_loot_table: LootTable<LootTableEntry> = { pools: [] };
+
+    const chest_loot_table: LootTable<LootTableEntry> = {
+      pools: [{ rolls: CHEST_ROLL, entries: [] }],
+    };
 
     for (const v of table.items) {
-      const loot_table = genLt(v.id, v.tier, v.price, v.name, v.lore);
+      const loot_table = genLt(v);
       if (!loot_table) continue;
 
       const formatted_id = v.id.replace("minecraft:", "");
@@ -65,15 +75,27 @@ async function main() {
         "utf-8",
       );
 
-      all_loot_table_data.pools.push({
+      all_loot_table.pools.push({
         rolls: 1,
         entries: [{ type: "loot_table", value: `dun:items/${formatted_id}` }],
+      });
+
+      chest_loot_table.pools[0].entries.push({
+        type: "loot_table",
+        value: `dun:items/${formatted_id}`,
+        weight: v.weight,
       });
     }
 
     await fs.writeFile(
       path.join(LOOT_TABLE_DIR, ALL_ITEMS_FILENAME),
-      JSON.stringify(all_loot_table_data, null, 2),
+      JSON.stringify(all_loot_table, null, 2),
+      "utf-8",
+    );
+
+    await fs.writeFile(
+      path.join(LOOT_TABLE_DIR, CHEST_FILENAME),
+      JSON.stringify(chest_loot_table, null, 2),
       "utf-8",
     );
 
@@ -83,13 +105,8 @@ async function main() {
   }
 }
 
-function genLt(
-  id: string,
-  tier: number,
-  price: number,
-  name: string,
-  lore: any,
-) {
+function genLt(v: Item) {
+  const { id, tier, price, weight, name, lore } = v;
   console.log(id);
 
   if (!id || !tier || !price || !name) {
