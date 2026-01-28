@@ -5,7 +5,132 @@
       "entries": [
         {
           "type": "loot_table",
+          "value": "dun:items/decorated_pot",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/heart_of_the_sea",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/heavy_core",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/nether_star",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/netherite_ingot",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/diamond",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/echo_shard",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/emerald",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/ender_eye",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/gold_ingot",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/netherite_scrap",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/ominous_trial_key",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
           "value": "dun:items/amethyst_shard",
+          "weight": 7
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/fire_charge",
+          "weight": 7
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/glistering_melon_slice",
+          "weight": 7
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/golden_carrot",
+          "weight": 7
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/lapis_lazuli",
+          "weight": 7
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/potion_luck",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/potion_regeneration",
+          "weight": 7
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/potion_healing",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/potion_swiftness",
+          "weight": 3
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/potion_water_breathing",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/potion_fire_resistance",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/potion_leaping",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/potion_strength",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/trial_key",
           "weight": 7
         },
         {
@@ -16,6 +141,66 @@
         {
           "type": "loot_table",
           "value": "dun:items/blaze_powder",
+          "weight": 13
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/copper_ingot",
+          "weight": 13
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/disc_fragment_5",
+          "weight": 13
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/fermented_spider_eye",
+          "weight": 13
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/glow_ink_sac",
+          "weight": 13
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/glowstone_dust",
+          "weight": 13
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/gold_nugget",
+          "weight": 13
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/iron_ingot",
+          "weight": 13
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/popped_chorus_fruit",
+          "weight": 13
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/potion_turtle_master",
+          "weight": 8
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/raw_gold",
+          "weight": 13
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/redstone",
+          "weight": 13
+        },
+        {
+          "type": "loot_table",
+          "value": "dun:items/resin_clump",
           "weight": 13
         },
         {
@@ -35,43 +220,8 @@
         },
         {
           "type": "loot_table",
-          "value": "dun:items/copper_ingot",
-          "weight": 13
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/decorated_pot",
-          "weight": 1
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/diamond",
-          "weight": 5
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/disc_fragment_5",
-          "weight": 13
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/echo_shard",
-          "weight": 5
-        },
-        {
-          "type": "loot_table",
           "value": "dun:items/egg",
           "weight": 30
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/emerald",
-          "weight": 5
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/ender_eye",
-          "weight": 5
         },
         {
           "type": "loot_table",
@@ -80,58 +230,8 @@
         },
         {
           "type": "loot_table",
-          "value": "dun:items/fermented_spider_eye",
-          "weight": 13
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/fire_charge",
-          "weight": 7
-        },
-        {
-          "type": "loot_table",
           "value": "dun:items/flint",
           "weight": 30
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/glistering_melon_slice",
-          "weight": 7
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/glow_ink_sac",
-          "weight": 13
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/glowstone_dust",
-          "weight": 13
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/gold_ingot",
-          "weight": 5
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/gold_nugget",
-          "weight": 13
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/golden_carrot",
-          "weight": 7
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/heart_of_the_sea",
-          "weight": 1
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/heavy_core",
-          "weight": 1
         },
         {
           "type": "loot_table",
@@ -145,18 +245,8 @@
         },
         {
           "type": "loot_table",
-          "value": "dun:items/iron_ingot",
-          "weight": 13
-        },
-        {
-          "type": "loot_table",
           "value": "dun:items/iron_nugget",
           "weight": 30
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/lapis_lazuli",
-          "weight": 7
         },
         {
           "type": "loot_table",
@@ -175,78 +265,8 @@
         },
         {
           "type": "loot_table",
-          "value": "dun:items/nether_star",
-          "weight": 1
-        },
-        {
-          "type": "loot_table",
           "value": "dun:items/nether_wart",
           "weight": 30
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/netherite_ingot",
-          "weight": 1
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/netherite_scrap",
-          "weight": 5
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/ominous_trial_key",
-          "weight": 5
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/popped_chorus_fruit",
-          "weight": 13
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/potionturtle_master",
-          "weight": 8
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/potionluck",
-          "weight": 5
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/potionregeneration",
-          "weight": 7
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/potionhealing",
-          "weight": 5
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/potionswiftness",
-          "weight": 3
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/potionwater_breathing",
-          "weight": 5
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/potionfire_resistance",
-          "weight": 5
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/potionleaping",
-          "weight": 5
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/potionstrength",
-          "weight": 5
         },
         {
           "type": "loot_table",
@@ -270,28 +290,13 @@
         },
         {
           "type": "loot_table",
-          "value": "dun:items/raw_gold",
-          "weight": 13
-        },
-        {
-          "type": "loot_table",
           "value": "dun:items/raw_iron",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/redstone",
-          "weight": 13
-        },
-        {
-          "type": "loot_table",
           "value": "dun:items/resin_brick",
           "weight": 30
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/resin_clump",
-          "weight": 13
         },
         {
           "type": "loot_table",
@@ -302,11 +307,6 @@
           "type": "loot_table",
           "value": "dun:items/sugar",
           "weight": 30
-        },
-        {
-          "type": "loot_table",
-          "value": "dun:items/trial_key",
-          "weight": 7
         },
         {
           "type": "loot_table",
