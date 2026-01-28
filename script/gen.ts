@@ -12,12 +12,14 @@ const DEFAULT_NAME = "?????";
 const CHEST_ROLL = 6;
 
 interface Item {
+  file_name?: string;
   id: string;
   tier: number;
   price: number;
   weight?: number;
   name: string;
   lore?: (string | object)[];
+  fn: object[];
 }
 
 interface ItemsTable {
@@ -60,7 +62,7 @@ async function main() {
       const loot_table = genLt(v);
       if (!loot_table) continue;
 
-      const formatted_id = v.id.replace("minecraft:", "");
+      const formatted_id = v.file_name;
       const file_path = path.join(
         LOOT_TABLE_DIR,
         "items",
@@ -106,7 +108,7 @@ async function main() {
 }
 
 function genLt(v: Item) {
-  const { id, tier, price, weight, name, lore } = v;
+  const { id, tier, price, weight, name, lore, fn } = v;
   console.log(id);
 
   if (!id || !tier || !price || !name) {
@@ -121,7 +123,7 @@ function genLt(v: Item) {
         entries: [
           {
             type: "minecraft:item",
-            name: id,
+            name: "minecraft:" + id,
             functions: [
               {
                 function: "minecraft:set_components",
@@ -150,6 +152,12 @@ function genLt(v: Item) {
     data.pools[0].entries[0].functions[0].components[
       "minecraft:custom_data"
     ].looting.lore = lore;
+  }
+
+  if (fn.length != 0) {
+    data.pools[0].entries[0].functions =
+      data.pools[0].entries[0].functions.concat(fn);
+    console.log(fn);
   }
 
   return data;

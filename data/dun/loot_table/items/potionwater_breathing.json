@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "looting": {
+                    "tier": 3,
+                    "price": 800,
+                    "name": {
+                      "text": "ぶくぶくジュース",
+                      "color": "white"
+                    },
+                    "lore": [
+                      "珍しい色のジュース",
+                      "飲むと水中でも呼吸ができるようになる"
+                    ]
+                  }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:water_breathing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

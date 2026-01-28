@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "looting": {
+                    "tier": 3,
+                    "price": 800,
+                    "name": {
+                      "text": "いたいのいたいのとんでけジュース",
+                      "color": "white"
+                    },
+                    "lore": [
+                      "珍しい色と名前のジュース",
+                      "飲むと回復力が上がる"
+                    ]
+                  }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:regeneration"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "looting": {
+                    "tier": 2,
+                    "price": 400,
+                    "name": {
+                      "text": "カチコチジュース",
+                      "color": "white"
+                    },
+                    "lore": [
+                      "奇妙な色のジュース",
+                      "飲むと足が遅くなる代わりに敵の攻撃を弱くできる"
+                    ]
+                  }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:turtle_master"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

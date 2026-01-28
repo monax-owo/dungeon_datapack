@@ -12,15 +12,14 @@
               "components": {
                 "minecraft:custom_data": {
                   "looting": {
-                    "tier": 2,
-                    "price": 400,
+                    "tier": 3,
+                    "price": 800,
                     "name": {
-                      "text": "カチコチジュース",
+                      "text": "回復薬",
                       "color": "white"
                     },
                     "lore": [
-                      "奇妙な色のジュース",
-                      "飲むと足が遅くなる代わりに敵の攻撃を弱くできる"
+                      "飲むと即座に体力が回復する"
                     ]
                   }
                 },
@@ -29,6 +28,10 @@
                   "italic": false
                 }
               }
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:healing"
             }
           ]
         }
