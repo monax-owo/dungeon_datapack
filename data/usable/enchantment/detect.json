@@ -1,0 +1,26 @@
+{
+  "description": "detect",
+  "supported_items": [],
+  "weight": 1,
+  "max_level": 1,
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": ["hand"],
+  "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "usable:item/detect"
+        }
+      }
+    ]
+  }
+}

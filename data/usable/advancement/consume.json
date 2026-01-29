@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "consume_item",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "usable:item/consume"
+  }
+}
