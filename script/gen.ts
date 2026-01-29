@@ -3,7 +3,7 @@ import path from "node:path";
 
 const ROOT_DIR = "../";
 
-const LOOT_TABLE_DIR = path.join(ROOT_DIR, "data/dun/loot_table");
+const LOOT_TABLE_DIR = path.join(ROOT_DIR, "data/dun/loot_table", "gen");
 const ITEMS_FILE_PATH = "items.json";
 const ALL_ITEMS_FILENAME = "all_items.json";
 const CHEST_FILENAME = "chest.json";
