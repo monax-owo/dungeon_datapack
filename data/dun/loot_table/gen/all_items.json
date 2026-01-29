@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/decorated_pot"
+          "value": "dun:gen/items/decorated_pot"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/heart_of_the_sea"
+          "value": "dun:gen/items/heart_of_the_sea"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/heavy_core"
+          "value": "dun:gen/items/heavy_core"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/nether_star"
+          "value": "dun:gen/items/nether_star"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/netherite_ingot"
+          "value": "dun:gen/items/netherite_ingot"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/diamond"
+          "value": "dun:gen/items/diamond"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/echo_shard"
+          "value": "dun:gen/items/echo_shard"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/emerald"
+          "value": "dun:gen/items/emerald"
         }
       ]
     },
@@ -77,7 +77,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/ender_eye"
+          "value": "dun:gen/items/ender_eye"
         }
       ]
     },
@@ -86,7 +86,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/gold_ingot"
+          "value": "dun:gen/items/gold_ingot"
         }
       ]
     },
@@ -95,7 +95,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/netherite_scrap"
+          "value": "dun:gen/items/netherite_scrap"
         }
       ]
     },
@@ -104,7 +104,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/ominous_trial_key"
+          "value": "dun:gen/items/ominous_trial_key"
         }
       ]
     },
@@ -113,7 +113,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/amethyst_shard"
+          "value": "dun:gen/items/amethyst_shard"
         }
       ]
     },
@@ -122,7 +122,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/fire_charge"
+          "value": "dun:gen/items/fire_charge"
         }
       ]
     },
@@ -131,7 +131,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/glistering_melon_slice"
+          "value": "dun:gen/items/glistering_melon_slice"
         }
       ]
     },
@@ -140,7 +140,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/golden_carrot"
+          "value": "dun:gen/items/golden_carrot"
         }
       ]
     },
@@ -149,7 +149,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/lapis_lazuli"
+          "value": "dun:gen/items/lapis_lazuli"
         }
       ]
     },
@@ -158,7 +158,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/potion_luck"
+          "value": "dun:gen/items/potion_luck"
         }
       ]
     },
@@ -167,7 +167,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/potion_regeneration"
+          "value": "dun:gen/items/potion_regeneration"
         }
       ]
     },
@@ -176,7 +176,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/potion_healing"
+          "value": "dun:gen/items/potion_healing"
         }
       ]
     },
@@ -185,7 +185,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/potion_swiftness"
+          "value": "dun:gen/items/potion_swiftness"
         }
       ]
     },
@@ -194,7 +194,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/potion_water_breathing"
+          "value": "dun:gen/items/potion_water_breathing"
         }
       ]
     },
@@ -203,7 +203,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/potion_fire_resistance"
+          "value": "dun:gen/items/potion_fire_resistance"
         }
       ]
     },
@@ -212,7 +212,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/potion_leaping"
+          "value": "dun:gen/items/potion_leaping"
         }
       ]
     },
@@ -221,7 +221,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/potion_strength"
+          "value": "dun:gen/items/potion_strength"
         }
       ]
     },
@@ -230,7 +230,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/trial_key"
+          "value": "dun:gen/items/trial_key"
         }
       ]
     },
@@ -239,7 +239,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/armadillo_scute"
+          "value": "dun:gen/items/armadillo_scute"
         }
       ]
     },
@@ -248,7 +248,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/blaze_powder"
+          "value": "dun:gen/items/blaze_powder"
         }
       ]
     },
@@ -257,7 +257,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/copper_ingot"
+          "value": "dun:gen/items/copper_ingot"
         }
       ]
     },
@@ -266,7 +266,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/disc_fragment_5"
+          "value": "dun:gen/items/disc_fragment_5"
         }
       ]
     },
@@ -275,7 +275,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/fermented_spider_eye"
+          "value": "dun:gen/items/fermented_spider_eye"
         }
       ]
     },
@@ -284,7 +284,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/glow_ink_sac"
+          "value": "dun:gen/items/glow_ink_sac"
         }
       ]
     },
@@ -293,7 +293,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/glowstone_dust"
+          "value": "dun:gen/items/glowstone_dust"
         }
       ]
     },
@@ -302,7 +302,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/gold_nugget"
+          "value": "dun:gen/items/gold_nugget"
         }
       ]
     },
@@ -311,7 +311,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/iron_ingot"
+          "value": "dun:gen/items/iron_ingot"
         }
       ]
     },
@@ -320,7 +320,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/popped_chorus_fruit"
+          "value": "dun:gen/items/popped_chorus_fruit"
         }
       ]
     },
@@ -329,7 +329,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/potion_turtle_master"
+          "value": "dun:gen/items/potion_turtle_master"
         }
       ]
     },
@@ -338,7 +338,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/raw_gold"
+          "value": "dun:gen/items/raw_gold"
         }
       ]
     },
@@ -347,7 +347,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/redstone"
+          "value": "dun:gen/items/redstone"
         }
       ]
     },
@@ -356,7 +356,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/resin_clump"
+          "value": "dun:gen/items/resin_clump"
         }
       ]
     },
@@ -365,7 +365,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/brick"
+          "value": "dun:gen/items/brick"
         }
       ]
     },
@@ -374,7 +374,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/clay_ball"
+          "value": "dun:gen/items/clay_ball"
         }
       ]
     },
@@ -383,7 +383,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/coal"
+          "value": "dun:gen/items/coal"
         }
       ]
     },
@@ -392,7 +392,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/egg"
+          "value": "dun:gen/items/egg"
         }
       ]
     },
@@ -401,7 +401,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/feather"
+          "value": "dun:gen/items/feather"
         }
       ]
     },
@@ -410,7 +410,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/flint"
+          "value": "dun:gen/items/flint"
         }
       ]
     },
@@ -419,7 +419,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/honeycomb"
+          "value": "dun:gen/items/honeycomb"
         }
       ]
     },
@@ -428,7 +428,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/ink_sac"
+          "value": "dun:gen/items/ink_sac"
         }
       ]
     },
@@ -437,7 +437,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/iron_nugget"
+          "value": "dun:gen/items/iron_nugget"
         }
       ]
     },
@@ -446,7 +446,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/leather"
+          "value": "dun:gen/items/leather"
         }
       ]
     },
@@ -455,7 +455,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/nautilus_shell"
+          "value": "dun:gen/items/nautilus_shell"
         }
       ]
     },
@@ -464,7 +464,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/nether_brick"
+          "value": "dun:gen/items/nether_brick"
         }
       ]
     },
@@ -473,7 +473,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/nether_wart"
+          "value": "dun:gen/items/nether_wart"
         }
       ]
     },
@@ -482,7 +482,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/pufferfish"
+          "value": "dun:gen/items/pufferfish"
         }
       ]
     },
@@ -491,7 +491,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/quartz"
+          "value": "dun:gen/items/quartz"
         }
       ]
     },
@@ -500,7 +500,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/rabbit_hide"
+          "value": "dun:gen/items/rabbit_hide"
         }
       ]
     },
@@ -509,7 +509,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/raw_copper"
+          "value": "dun:gen/items/raw_copper"
         }
       ]
     },
@@ -518,7 +518,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/raw_iron"
+          "value": "dun:gen/items/raw_iron"
         }
       ]
     },
@@ -527,7 +527,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/resin_brick"
+          "value": "dun:gen/items/resin_brick"
         }
       ]
     },
@@ -536,7 +536,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/rotten_flesh"
+          "value": "dun:gen/items/rotten_flesh"
         }
       ]
     },
@@ -545,7 +545,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/sugar"
+          "value": "dun:gen/items/sugar"
         }
       ]
     },
@@ -554,7 +554,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/turtle_scute"
+          "value": "dun:gen/items/turtle_scute"
         }
       ]
     }

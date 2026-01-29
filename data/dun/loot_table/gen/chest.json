@@ -5,312 +5,312 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/decorated_pot",
+          "value": "dun:gen/items/decorated_pot",
           "weight": 1
         },
         {
           "type": "loot_table",
-          "value": "dun:items/heart_of_the_sea",
+          "value": "dun:gen/items/heart_of_the_sea",
           "weight": 1
         },
         {
           "type": "loot_table",
-          "value": "dun:items/heavy_core",
+          "value": "dun:gen/items/heavy_core",
           "weight": 1
         },
         {
           "type": "loot_table",
-          "value": "dun:items/nether_star",
+          "value": "dun:gen/items/nether_star",
           "weight": 1
         },
         {
           "type": "loot_table",
-          "value": "dun:items/netherite_ingot",
+          "value": "dun:gen/items/netherite_ingot",
           "weight": 1
         },
         {
           "type": "loot_table",
-          "value": "dun:items/diamond",
+          "value": "dun:gen/items/diamond",
           "weight": 5
         },
         {
           "type": "loot_table",
-          "value": "dun:items/echo_shard",
+          "value": "dun:gen/items/echo_shard",
           "weight": 5
         },
         {
           "type": "loot_table",
-          "value": "dun:items/emerald",
+          "value": "dun:gen/items/emerald",
           "weight": 5
         },
         {
           "type": "loot_table",
-          "value": "dun:items/ender_eye",
+          "value": "dun:gen/items/ender_eye",
           "weight": 5
         },
         {
           "type": "loot_table",
-          "value": "dun:items/gold_ingot",
+          "value": "dun:gen/items/gold_ingot",
           "weight": 5
         },
         {
           "type": "loot_table",
-          "value": "dun:items/netherite_scrap",
+          "value": "dun:gen/items/netherite_scrap",
           "weight": 5
         },
         {
           "type": "loot_table",
-          "value": "dun:items/ominous_trial_key",
+          "value": "dun:gen/items/ominous_trial_key",
           "weight": 5
         },
         {
           "type": "loot_table",
-          "value": "dun:items/amethyst_shard",
+          "value": "dun:gen/items/amethyst_shard",
           "weight": 7
         },
         {
           "type": "loot_table",
-          "value": "dun:items/fire_charge",
+          "value": "dun:gen/items/fire_charge",
           "weight": 7
         },
         {
           "type": "loot_table",
-          "value": "dun:items/glistering_melon_slice",
+          "value": "dun:gen/items/glistering_melon_slice",
           "weight": 7
         },
         {
           "type": "loot_table",
-          "value": "dun:items/golden_carrot",
+          "value": "dun:gen/items/golden_carrot",
           "weight": 7
         },
         {
           "type": "loot_table",
-          "value": "dun:items/lapis_lazuli",
+          "value": "dun:gen/items/lapis_lazuli",
           "weight": 7
         },
         {
           "type": "loot_table",
-          "value": "dun:items/potion_luck",
+          "value": "dun:gen/items/potion_luck",
           "weight": 5
         },
         {
           "type": "loot_table",
-          "value": "dun:items/potion_regeneration",
+          "value": "dun:gen/items/potion_regeneration",
           "weight": 7
         },
         {
           "type": "loot_table",
-          "value": "dun:items/potion_healing",
+          "value": "dun:gen/items/potion_healing",
           "weight": 5
         },
         {
           "type": "loot_table",
-          "value": "dun:items/potion_swiftness",
+          "value": "dun:gen/items/potion_swiftness",
           "weight": 3
         },
         {
           "type": "loot_table",
-          "value": "dun:items/potion_water_breathing",
+          "value": "dun:gen/items/potion_water_breathing",
           "weight": 5
         },
         {
           "type": "loot_table",
-          "value": "dun:items/potion_fire_resistance",
+          "value": "dun:gen/items/potion_fire_resistance",
           "weight": 5
         },
         {
           "type": "loot_table",
-          "value": "dun:items/potion_leaping",
+          "value": "dun:gen/items/potion_leaping",
           "weight": 5
         },
         {
           "type": "loot_table",
-          "value": "dun:items/potion_strength",
+          "value": "dun:gen/items/potion_strength",
           "weight": 5
         },
         {
           "type": "loot_table",
-          "value": "dun:items/trial_key",
+          "value": "dun:gen/items/trial_key",
           "weight": 7
         },
         {
           "type": "loot_table",
-          "value": "dun:items/armadillo_scute",
+          "value": "dun:gen/items/armadillo_scute",
           "weight": 13
         },
         {
           "type": "loot_table",
-          "value": "dun:items/blaze_powder",
+          "value": "dun:gen/items/blaze_powder",
           "weight": 13
         },
         {
           "type": "loot_table",
-          "value": "dun:items/copper_ingot",
+          "value": "dun:gen/items/copper_ingot",
           "weight": 13
         },
         {
           "type": "loot_table",
-          "value": "dun:items/disc_fragment_5",
+          "value": "dun:gen/items/disc_fragment_5",
           "weight": 13
         },
         {
           "type": "loot_table",
-          "value": "dun:items/fermented_spider_eye",
+          "value": "dun:gen/items/fermented_spider_eye",
           "weight": 13
         },
         {
           "type": "loot_table",
-          "value": "dun:items/glow_ink_sac",
+          "value": "dun:gen/items/glow_ink_sac",
           "weight": 13
         },
         {
           "type": "loot_table",
-          "value": "dun:items/glowstone_dust",
+          "value": "dun:gen/items/glowstone_dust",
           "weight": 13
         },
         {
           "type": "loot_table",
-          "value": "dun:items/gold_nugget",
+          "value": "dun:gen/items/gold_nugget",
           "weight": 13
         },
         {
           "type": "loot_table",
-          "value": "dun:items/iron_ingot",
+          "value": "dun:gen/items/iron_ingot",
           "weight": 13
         },
         {
           "type": "loot_table",
-          "value": "dun:items/popped_chorus_fruit",
+          "value": "dun:gen/items/popped_chorus_fruit",
           "weight": 13
         },
         {
           "type": "loot_table",
-          "value": "dun:items/potion_turtle_master",
+          "value": "dun:gen/items/potion_turtle_master",
           "weight": 8
         },
         {
           "type": "loot_table",
-          "value": "dun:items/raw_gold",
+          "value": "dun:gen/items/raw_gold",
           "weight": 13
         },
         {
           "type": "loot_table",
-          "value": "dun:items/redstone",
+          "value": "dun:gen/items/redstone",
           "weight": 13
         },
         {
           "type": "loot_table",
-          "value": "dun:items/resin_clump",
+          "value": "dun:gen/items/resin_clump",
           "weight": 13
         },
         {
           "type": "loot_table",
-          "value": "dun:items/brick",
+          "value": "dun:gen/items/brick",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/clay_ball",
+          "value": "dun:gen/items/clay_ball",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/coal",
+          "value": "dun:gen/items/coal",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/egg",
+          "value": "dun:gen/items/egg",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/feather",
+          "value": "dun:gen/items/feather",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/flint",
+          "value": "dun:gen/items/flint",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/honeycomb",
+          "value": "dun:gen/items/honeycomb",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/ink_sac",
+          "value": "dun:gen/items/ink_sac",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/iron_nugget",
+          "value": "dun:gen/items/iron_nugget",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/leather",
+          "value": "dun:gen/items/leather",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/nautilus_shell",
+          "value": "dun:gen/items/nautilus_shell",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/nether_brick",
+          "value": "dun:gen/items/nether_brick",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/nether_wart",
+          "value": "dun:gen/items/nether_wart",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/pufferfish",
+          "value": "dun:gen/items/pufferfish",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/quartz",
+          "value": "dun:gen/items/quartz",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/rabbit_hide",
+          "value": "dun:gen/items/rabbit_hide",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/raw_copper",
+          "value": "dun:gen/items/raw_copper",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/raw_iron",
+          "value": "dun:gen/items/raw_iron",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/resin_brick",
+          "value": "dun:gen/items/resin_brick",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/rotten_flesh",
+          "value": "dun:gen/items/rotten_flesh",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/sugar",
+          "value": "dun:gen/items/sugar",
           "weight": 30
         },
         {
           "type": "loot_table",
-          "value": "dun:items/turtle_scute",
+          "value": "dun:gen/items/turtle_scute",
           "weight": 30
         }
       ]

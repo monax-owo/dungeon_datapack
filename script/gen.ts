@@ -2,8 +2,13 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 const ROOT_DIR = "../";
+const LOOT_TABLE_PATH = "gen";
 
-const LOOT_TABLE_DIR = path.join(ROOT_DIR, "data/dun/loot_table", "gen");
+const LOOT_TABLE_DIR = path.join(
+  ROOT_DIR,
+  "data/dun/loot_table",
+  LOOT_TABLE_PATH,
+);
 const ITEMS_FILE_PATH = "items.json";
 const ALL_ITEMS_FILENAME = "all_items.json";
 const CHEST_FILENAME = "chest.json";
@@ -79,12 +84,12 @@ async function main() {
 
       all_loot_table.pools.push({
         rolls: 1,
-        entries: [{ type: "loot_table", value: `dun:items/${formatted_id}` }],
+        entries: [{ type: "loot_table", value: `dun:${LOOT_TABLE_PATH}/items/${formatted_id}` }],
       });
 
       chest_loot_table.pools[0].entries.push({
         type: "loot_table",
-        value: `dun:items/${formatted_id}`,
+        value: `dun:${LOOT_TABLE_PATH}/items/${formatted_id}`,
         weight: v.weight,
       });
     }
