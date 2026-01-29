@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "custom_data": {
+              "usable": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "usable:item/using"
+  }
+}
