@@ -1,6 +1,6 @@
 # 
 
-function usable:item/_replace with entity @s SelectedItem.components.minecraft:custom_data.loot_table
+function usable:item/_replace with entity @s SelectedItem.components.minecraft:custom_data.usable
 
 # clear
 
