@@ -11,7 +11,8 @@ execute store result storage dun: temp.x double -1 run data get entity @s Rotati
 function dun:item/_summon_arrow with storage dun: temp
 data remove storage dun: temp
 
-data modify entity @e[sort=nearest,tag=test_stick_projectile,limit=1] Motion set from entity @e[sort=nearest,tag=test_marker,limit=1] Pos
+execute positioned ~ ~1.45 ~ run data modify entity @e[sort=nearest,tag=test_stick_projectile,limit=1] Motion set from entity @e[sort=nearest,tag=test_marker,limit=1] Pos
+execute positioned ~ ~1.45 ~ run data modify entity @e[sort=nearest,tag=test_stick_projectile,limit=1] Owner set from entity @s UUID
 
 # data modify entity @e[sort=nearest,tag=test_stick_projectile,limit=1] Rotation set from entity @s Rotation
 
