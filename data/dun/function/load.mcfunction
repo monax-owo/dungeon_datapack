@@ -4,3 +4,4 @@ data modify storage dun: groups set value ["plain","mineshaft","jungle","mansion
 
 function dun:boss/load
 function dun:chest/load
+function dun:monster/load
