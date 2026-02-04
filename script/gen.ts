@@ -11,11 +11,8 @@ const LOOT_TABLE_DIR = path.join(
   LOOT_TABLE_PATH,
 );
 const ITEMS_FILE_PATH = "items.json";
-const ALL_ITEMS_FILENAME = "all_items.json";
-const CHEST_FILENAME = "chest.json";
+const PICKUP_FILENAME = "pickup.json";
 const DEFAULT_NAME = "?????";
-
-const CHEST_ROLL = 6;
 
 interface Item {
   file_name: string;
@@ -44,12 +41,14 @@ interface ItemEntry {
   name: string;
   functions: any[];
   weight?: number;
+  quality?: number;
 }
 
 interface LootTableEntry {
   type: string;
   value: string;
   weight?: number;
+  quality?: number;
 }
 
 async function main() {
@@ -58,10 +57,8 @@ async function main() {
       await fs.readFile(ITEMS_FILE_PATH, "utf-8"),
     );
 
-    const all_loot_table: LootTable<LootTableEntry> = { pools: [] };
-
-    const chest_loot_table: LootTable<LootTableEntry> = {
-      pools: [{ rolls: CHEST_ROLL, entries: [] }],
+    const pickup_loot_table: LootTable<LootTableEntry> = {
+      pools: [{ rolls: 1, entries: [] }],
     };
 
     for (const v of table.items) {
@@ -82,32 +79,17 @@ async function main() {
         "utf-8",
       );
 
-      all_loot_table.pools.push({
-        rolls: 1,
-        entries: [
-          {
-            type: "loot_table",
-            value: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${v.file_name}`,
-          },
-        ],
-      });
-
-      chest_loot_table.pools[0].entries.push({
+      pickup_loot_table.pools[0].entries.push({
         type: "loot_table",
         value: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${v.file_name}`,
         weight: v.weight,
+        quality: 1,
       });
     }
 
     await fs.writeFile(
-      path.join(LOOT_TABLE_DIR, ALL_ITEMS_FILENAME),
-      JSON.stringify(all_loot_table, null, 2),
-      "utf-8",
-    );
-
-    await fs.writeFile(
-      path.join(LOOT_TABLE_DIR, CHEST_FILENAME),
-      JSON.stringify(chest_loot_table, null, 2),
+      path.join(LOOT_TABLE_DIR, PICKUP_FILENAME),
+      JSON.stringify(pickup_loot_table, null, 2),
       "utf-8",
     );
 
