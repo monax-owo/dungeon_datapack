@@ -1,5 +1,7 @@
 # {pos: position, group: string}
 
+$execute unless data storage dun: groups[{id:"$(group)"}] run return 0
+
 $execute if data storage dun: chest.positions[{pos:"$(pos)"}] run return -1
 
 $execute if block $(pos) #util:can_loot_table run data modify storage dun: _checked set value true

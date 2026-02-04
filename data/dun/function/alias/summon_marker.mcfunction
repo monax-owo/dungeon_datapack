@@ -1,4 +1,7 @@
 # {group: string, name: string}
+
+$execute unless data storage dun: groups[{id:"$(group)"}] run return 0
+
 $summon minecraft:marker ~ ~ ~ {data:{dun:{group:"$(group)"},name:"$(name)"}}
 
 # example
