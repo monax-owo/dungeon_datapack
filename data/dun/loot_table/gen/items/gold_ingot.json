@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 4,
-                    "price": 1500,
                     "name": {
                       "text": "10金",
                       "color": "white"
@@ -21,6 +20,9 @@
                     "lore": [
                       "純度41.7%の金の延べ棒"
                     ]
+                  },
+                  "money": {
+                    "price": 1500
                   },
                   "loot_table": "dun:gen/items/gold_ingot"
                 },

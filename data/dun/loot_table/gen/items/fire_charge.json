@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 3,
-                    "price": 700,
                     "name": {
                       "text": "干上がった海洋の心",
                       "color": "white"
@@ -22,6 +21,9 @@
                       "完全に干からびている",
                       "無惨だ..."
                     ]
+                  },
+                  "money": {
+                    "price": 700
                   },
                   "loot_table": "dun:gen/items/fire_charge"
                 },

@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 20,
                     "name": {
                       "text": "何かの卵",
                       "color": "white"
@@ -21,6 +20,9 @@
                     "lore": [
                       "一体何の…？"
                     ]
+                  },
+                  "money": {
+                    "price": 20
                   },
                   "loot_table": "dun:gen/items/egg"
                 },

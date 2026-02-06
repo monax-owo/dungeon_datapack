@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 80,
                     "name": {
                       "text": "干からびたスライム",
                       "color": "white"
@@ -21,6 +20,9 @@
                     "lore": [
                       "一目見てスライムとはわからない程に干からびている"
                     ]
+                  },
+                  "money": {
+                    "price": 80
                   },
                   "loot_table": "dun:gen/items/turtle_scute"
                 },

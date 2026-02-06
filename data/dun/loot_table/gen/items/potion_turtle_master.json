@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 2,
-                    "price": 400,
                     "name": {
                       "text": "カチコチジュース",
                       "color": "white"
@@ -22,6 +21,9 @@
                       "奇妙な色のジュース",
                       "飲むと足が遅くなる代わりに敵の攻撃を弱くできる"
                     ]
+                  },
+                  "money": {
+                    "price": 400
                   },
                   "loot_table": "dun:gen/items/potion_turtle_master"
                 },

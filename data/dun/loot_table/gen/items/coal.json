@@ -13,11 +13,13 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 20,
                     "name": {
                       "text": "石炭",
                       "color": "white"
                     }
+                  },
+                  "money": {
+                    "price": 20
                   },
                   "loot_table": "dun:gen/items/coal"
                 },

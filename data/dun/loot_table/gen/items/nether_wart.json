@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 70,
                     "name": {
                       "text": "赤いきのこ",
                       "color": "white"
@@ -21,6 +20,9 @@
                     "lore": [
                       "あまりにも色が毒すぎる"
                     ]
+                  },
+                  "money": {
+                    "price": 70
                   },
                   "loot_table": "dun:gen/items/nether_wart"
                 },

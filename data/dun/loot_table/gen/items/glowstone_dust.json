@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 2,
-                    "price": 400,
                     "name": {
                       "text": "きれいな粉",
                       "color": "white"
@@ -22,6 +21,9 @@
                       "普通の粉よりちょっと綺麗",
                       "ちょっとだけ高く売れる"
                     ]
+                  },
+                  "money": {
+                    "price": 400
                   },
                   "loot_table": "dun:gen/items/glowstone_dust"
                 },

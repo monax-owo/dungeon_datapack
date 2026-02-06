@@ -13,11 +13,13 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 30,
                     "name": {
                       "text": "鉄塊",
                       "color": "white"
                     }
+                  },
+                  "money": {
+                    "price": 30
                   },
                   "loot_table": "dun:gen/items/iron_nugget"
                 },

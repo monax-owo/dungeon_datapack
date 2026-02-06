@@ -13,11 +13,13 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 4,
-                    "price": 1200,
                     "name": {
                       "text": "エメ",
                       "color": "white"
                     }
+                  },
+                  "money": {
+                    "price": 1200
                   },
                   "loot_table": "dun:gen/items/emerald"
                 },

@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 2,
-                    "price": 500,
                     "name": {
                       "text": "何かの破片",
                       "color": "white"
@@ -21,6 +20,9 @@
                     "lore": [
                       "触ると痛い"
                     ]
+                  },
+                  "money": {
+                    "price": 500
                   },
                   "loot_table": "dun:gen/items/disc_fragment_5"
                 },

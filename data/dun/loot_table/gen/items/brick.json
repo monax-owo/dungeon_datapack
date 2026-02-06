@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 40,
                     "name": {
                       "text": "生チョコレート",
                       "color": "white"
@@ -22,6 +21,9 @@
                       "所謂高級チョコレート",
                       "とても美味しい"
                     ]
+                  },
+                  "money": {
+                    "price": 40
                   },
                   "loot_table": "dun:gen/items/brick"
                 },

@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 3,
-                    "price": 700,
                     "name": {
                       "text": "普通の鍵",
                       "color": "white"
@@ -22,6 +21,9 @@
                       "安っぽい鍵",
                       "一体何が開けられるのだろうか"
                     ]
+                  },
+                  "money": {
+                    "price": 700
                   },
                   "loot_table": "dun:gen/items/trial_key"
                 },

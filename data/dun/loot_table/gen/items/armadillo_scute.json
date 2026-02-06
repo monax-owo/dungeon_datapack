@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 2,
-                    "price": 100,
                     "name": {
                       "text": "チキンナゲット(肉)",
                       "color": "white"
@@ -21,6 +20,9 @@
                     "lore": [
                       "世の中にはチキンナゲットの衣を剥がして肉の部分だけ食べる人もいるようだ"
                     ]
+                  },
+                  "money": {
+                    "price": 100
                   },
                   "loot_table": "dun:gen/items/armadillo_scute"
                 },

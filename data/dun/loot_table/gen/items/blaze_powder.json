@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 2,
-                    "price": 300,
                     "name": {
                       "text": "チキンナゲット(衣)",
                       "color": "white"
@@ -21,6 +20,9 @@
                     "lore": [
                       "世の中にはチキンナゲットの衣の部分だけ剥がして食べる人もいるようだ"
                     ]
+                  },
+                  "money": {
+                    "price": 300
                   },
                   "loot_table": "dun:gen/items/blaze_powder"
                 },

@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 50,
                     "name": {
                       "text": "蜂の巣の欠片",
                       "color": "white"
@@ -22,6 +21,9 @@
                       "なんとかして頑張ったらハチミツが取れそうな…",
                       "流石に無理か…"
                     ]
+                  },
+                  "money": {
+                    "price": 50
                   },
                   "loot_table": "dun:gen/items/honeycomb"
                 },

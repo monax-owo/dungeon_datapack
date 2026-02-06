@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 5,
-                    "price": 4500,
                     "name": {
                       "text": "本命チョコ",
                       "color": "white"
@@ -22,6 +21,9 @@
                       "愛をとても強く感じるチョコ",
                       "味は甘いがその思いは甘く見てはいけない"
                     ]
+                  },
+                  "money": {
+                    "price": 4500
                   },
                   "loot_table": "dun:gen/items/netherite_ingot"
                 },

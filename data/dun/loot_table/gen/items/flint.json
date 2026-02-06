@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 20,
                     "name": {
                       "text": "尖った石",
                       "color": "white"
@@ -22,6 +21,9 @@
                       "他の石に比べてとても尖っている",
                       "触ると痛い"
                     ]
+                  },
+                  "money": {
+                    "price": 20
                   },
                   "loot_table": "dun:gen/items/flint"
                 },

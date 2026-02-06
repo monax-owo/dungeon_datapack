@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 2,
-                    "price": 100,
                     "name": {
                       "text": "琥珀",
                       "color": "white"
@@ -22,6 +21,9 @@
                       "稀に大昔の生物が入っていることがある",
                       "その場合とても高く売れるだろう"
                     ]
+                  },
+                  "money": {
+                    "price": 100
                   },
                   "loot_table": "dun:gen/items/resin_clump"
                 },

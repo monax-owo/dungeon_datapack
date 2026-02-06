@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 3,
-                    "price": 700,
                     "name": {
                       "text": "紫の宝石",
                       "color": "white"
@@ -22,6 +21,9 @@
                       "光を通す綺麗な宝石",
                       "まあまあ高く売れる"
                     ]
+                  },
+                  "money": {
+                    "price": 700
                   },
                   "loot_table": "dun:gen/items/amethyst_shard"
                 },

@@ -13,11 +13,13 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 2,
-                    "price": 100,
                     "name": {
                       "text": "銅",
                       "color": "white"
                     }
+                  },
+                  "money": {
+                    "price": 100
                   },
                   "loot_table": "dun:gen/items/copper_ingot"
                 },

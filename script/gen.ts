@@ -123,8 +123,10 @@ function genLt(v: Item) {
                   "minecraft:custom_data": {
                     looting: {
                       tier: tier,
-                      price,
                       name: { text: name, color: "white" },
+                    },
+                    money: {
+                      price,
                     },
                     loot_table: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${file_name}`,
                   },

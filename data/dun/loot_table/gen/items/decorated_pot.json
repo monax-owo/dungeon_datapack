@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 9,
-                    "price": 10000,
                     "name": {
                       "text": "幸運の壺",
                       "color": "white"
@@ -22,6 +21,9 @@
                       "伝説の職人が作ったとの噂がある壺",
                       "持っていると力を感じる 気がする...？"
                     ]
+                  },
+                  "money": {
+                    "price": 10000
                   },
                   "loot_table": "dun:gen/items/decorated_pot"
                 },

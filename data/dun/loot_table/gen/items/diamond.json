@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 4,
-                    "price": 1800,
                     "name": {
                       "text": "ダイアモンド",
                       "color": "white"
@@ -21,6 +20,9 @@
                     "lore": [
                       "砕けない"
                     ]
+                  },
+                  "money": {
+                    "price": 1800
                   },
                   "loot_table": "dun:gen/items/diamond"
                 },

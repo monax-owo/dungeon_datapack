@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 4,
-                    "price": 1400,
                     "name": {
                       "text": "装飾の施された鍵",
                       "color": "white"
@@ -22,6 +21,9 @@
                       "職人の魂を感じる鍵",
                       "何に使うかは未だにわからない"
                     ]
+                  },
+                  "money": {
+                    "price": 1400
                   },
                   "loot_table": "dun:gen/items/ominous_trial_key"
                 },

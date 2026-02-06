@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 80,
                     "name": {
                       "text": "マイタケ",
                       "color": "white"
@@ -21,6 +20,9 @@
                     "lore": [
                       "きのこのはずだが何故か食べる手が動かない"
                     ]
+                  },
+                  "money": {
+                    "price": 80
                   },
                   "loot_table": "dun:gen/items/quartz"
                 },

@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 3,
-                    "price": 800,
                     "name": {
                       "text": "回復薬",
                       "color": "white"
@@ -21,6 +20,9 @@
                     "lore": [
                       "飲むと即座に体力が回復する"
                     ]
+                  },
+                  "money": {
+                    "price": 800
                   },
                   "loot_table": "dun:gen/items/potion_healing"
                 },

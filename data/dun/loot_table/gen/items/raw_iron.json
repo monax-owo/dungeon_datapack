@@ -13,11 +13,13 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 60,
                     "name": {
                       "text": "鉄の原石",
                       "color": "white"
                     }
+                  },
+                  "money": {
+                    "price": 60
                   },
                   "loot_table": "dun:gen/items/raw_iron"
                 },

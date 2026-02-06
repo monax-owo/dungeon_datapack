@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 5,
-                    "price": 4000,
                     "name": {
                       "text": "海洋の心",
                       "color": "white"
@@ -22,6 +21,9 @@
                       "海を統べる者が遺した遺物",
                       "持っていると海の感情を感じる"
                     ]
+                  },
+                  "money": {
+                    "price": 4000
                   },
                   "loot_table": "dun:gen/items/heart_of_the_sea"
                 },

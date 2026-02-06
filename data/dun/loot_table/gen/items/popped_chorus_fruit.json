@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 2,
-                    "price": 200,
                     "name": {
                       "text": "紫キャベツ",
                       "color": "white"
@@ -21,6 +20,9 @@
                     "lore": [
                       "普通のキャベツよりも葉が厚いので食感が良い"
                     ]
+                  },
+                  "money": {
+                    "price": 200
                   },
                   "loot_table": "dun:gen/items/popped_chorus_fruit"
                 },

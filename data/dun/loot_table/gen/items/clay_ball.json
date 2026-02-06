@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 20,
                     "name": {
                       "text": "柔らかい塊",
                       "color": "white"
@@ -22,6 +21,9 @@
                       "絶妙な感触をしている",
                       "焼くと硬くなりそうだ"
                     ]
+                  },
+                  "money": {
+                    "price": 20
                   },
                   "loot_table": "dun:gen/items/clay_ball"
                 },

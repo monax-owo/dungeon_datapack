@@ -13,7 +13,6 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 3,
-                    "price": 600,
                     "name": {
                       "text": "ピカピカスイカ",
                       "color": "white"
@@ -22,6 +21,9 @@
                       "純金の欠片が埋め込まれたスイカ",
                       "食べるとちょっと回復力が上がる"
                     ]
+                  },
+                  "money": {
+                    "price": 600
                   },
                   "loot_table": "dun:gen/items/glistering_melon_slice"
                 },

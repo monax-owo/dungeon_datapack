@@ -13,11 +13,13 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 4,
-                    "price": 2100,
                     "name": {
                       "text": "残響の欠片",
                       "color": "white"
                     }
+                  },
+                  "money": {
+                    "price": 2100
                   },
                   "loot_table": "dun:gen/items/echo_shard"
                 },

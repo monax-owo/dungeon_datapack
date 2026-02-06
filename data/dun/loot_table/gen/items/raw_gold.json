@@ -13,11 +13,13 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 2,
-                    "price": 300,
                     "name": {
                       "text": "金色の石",
                       "color": "white"
                     }
+                  },
+                  "money": {
+                    "price": 300
                   },
                   "loot_table": "dun:gen/items/raw_gold"
                 },
