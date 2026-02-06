@@ -2,8 +2,6 @@
 
 execute unless data entity @s SelectedItem.components."minecraft:custom_data".looting run return fail
 
-execute if data entity @s SelectedItem.components."minecraft:custom_data".looting~{searched:true} run return fail
-
 execute if data entity @s SelectedItem.components."minecraft:custom_data".looting{tier:1b} run item modify entity @s weapon.mainhand looting:1
 execute if data entity @s SelectedItem.components."minecraft:custom_data".looting{tier:2b} run item modify entity @s weapon.mainhand looting:2
 execute if data entity @s SelectedItem.components."minecraft:custom_data".looting{tier:3b} run item modify entity @s weapon.mainhand looting:3
