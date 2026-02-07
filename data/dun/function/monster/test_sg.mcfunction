@@ -1,14 +1,12 @@
 # {group: string}
 
-
-
-execute as @e[type=marker] run function dun:monster/summon_group {group:"plain"}
-execute as @e[type=marker] run function dun:monster/summon_group {group:"mineshaft"}
-execute as @e[type=marker] run function dun:monster/summon_group {group:"jungle"}
-execute as @e[type=marker] run function dun:monster/summon_group {group:"mansion"}
-execute as @e[type=marker] run function dun:monster/summon_group {group:"taiga"}
-execute as @e[type=marker] run function dun:monster/summon_group {group:"frozen_ocean"}
-execute as @e[type=marker] run function dun:monster/summon_group {group:"monument"}
-execute as @e[type=marker] run function dun:monster/summon_group {group:"desert"}
-execute as @e[type=marker] run function dun:monster/summon_group {group:"nether"}
-execute as @e[type=marker] run function dun:monster/summon_group {group:"end"}
+function dun:monster/summon_group {group:"plain"}
+function dun:monster/summon_group {group:"mineshaft"}
+function dun:monster/summon_group {group:"jungle"}
+function dun:monster/summon_group {group:"mansion"}
+function dun:monster/summon_group {group:"taiga"}
+function dun:monster/summon_group {group:"frozen_ocean"}
+function dun:monster/summon_group {group:"monument"}
+function dun:monster/summon_group {group:"desert"}
+function dun:monster/summon_group {group:"nether"}
+function dun:monster/summon_group {group:"end"}
