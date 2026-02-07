@@ -2,7 +2,7 @@
 
 $execute unless data storage dun: groups[{id:"$(group)"}] run return 0
 
-$summon minecraft:marker ~ ~-.5 ~ {data:{dun:{group:"$(group)"},name:"$(name)"}}
+$summon minecraft:marker ~ ~-.5 ~ {data:{dun:{group:"$(group)"},name:"$(name)"},Tags:["spawner"]}
 
 # example
 
