@@ -1,5 +1,7 @@
-# {pos: position, distance: int}
+# {pos: position, dimension: string, distance: int}
 
 $execute if loaded $(pos)
 
-$summon marker ~ ~ ~ {Tags:[portal],data:{name:"Portal",portal:{pos:"$(pos)",distance:$(distance)}}}
+$execute unless data storage portal: dimensions[{id:"$(dimension)"}] run return 0
+
+$summon marker ~ ~ ~ {Tags:[portal],data:{name:"Portal",portal:{pos:"$(pos)",dimension:"$(dimension)",distance:$(distance)}}}
