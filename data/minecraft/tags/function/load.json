@@ -1,3 +1,9 @@
 {
-  "values": ["#util:load", "#money:load", "#dun:load", "#looting:load"]
+  "values": [
+    "#util:load",
+    "#money:load",
+    "#dun:load",
+    "#looting:load",
+    "#portal:load"
+  ]
 }
