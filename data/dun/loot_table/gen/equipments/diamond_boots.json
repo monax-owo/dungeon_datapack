@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "looting": {
+                    "tier": 4,
+                    "name": {
+                      "text": "ダイヤモンドのブーツ",
+                      "color": "white"
+                    },
+                    "lore": [
+                      "2マスの段差を乗り越えられる"
+                    ]
+                  },
+                  "money": {
+                    "price": 400
+                  },
+                  "loot_table": "dun:gen/items/diamond_boots"
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
+                },
+                "minecraft:item_name": "",
+                "minecraft:rarity": "common"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

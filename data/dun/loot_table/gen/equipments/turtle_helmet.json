@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "looting": {
+                    "tier": 1,
+                    "name": {
+                      "text": "亀の甲羅",
+                      "color": "white"
+                    },
+                    "lore": [
+                      "水中呼吸"
+                    ]
+                  },
+                  "money": {
+                    "price": 50
+                  },
+                  "loot_table": "dun:gen/items/turtle_helmet"
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
+                },
+                "minecraft:item_name": "",
+                "minecraft:rarity": "common"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

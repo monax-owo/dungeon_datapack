@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "looting": {
+                    "tier": 5,
+                    "name": {
+                      "text": "ネザライトのヘルメット",
+                      "color": "white"
+                    }
+                  },
+                  "money": {
+                    "price": 1000
+                  },
+                  "loot_table": "dun:gen/items/netherite_helmet"
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
+                },
+                "minecraft:item_name": "",
+                "minecraft:rarity": "common"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

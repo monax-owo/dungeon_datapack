@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "looting": {
+                    "tier": 1,
+                    "name": {
+                      "text": "木刀",
+                      "color": "white"
+                    },
+                    "lore": [
+                      "攻撃間隔が短い"
+                    ]
+                  },
+                  "money": {
+                    "price": 50
+                  },
+                  "loot_table": "dun:gen/items/wooden_sword"
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
+                },
+                "minecraft:item_name": "",
+                "minecraft:rarity": "common"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
