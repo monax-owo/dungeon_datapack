@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "binomial",
+        "n": 12,
+        "p": 0.5
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:gen/pickup/rare"
+        }
+      ],
+      "bonus_rolls": 5
+    }
+  ]
+}
