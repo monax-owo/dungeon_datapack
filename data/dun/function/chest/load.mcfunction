@@ -1,4 +1,1 @@
-# 
-
-scoreboard objectives add chest dummy
-scoreboard players set #count chest 0
+#scoreboardobjectivesaddchestdummyscoreboardplayersset#countchest0advancementrevoke@aonlydun:on_use_trial_key
