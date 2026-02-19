@@ -43,7 +43,7 @@
                 },
                 "loot_table": "dun:gen/equipments/iron_axe",
                 "usable": {
-                  "loot_table": "dun:gen/equipments/iron_sword",
+                  "loot_table": "dun:gen/equipments/iron_axe",
                   "command": "function dun:item/iron_sword/iron_sword"
                 }
               }
@@ -60,7 +60,7 @@
                 },
                 {
                   "attribute": "attack_speed",
-                  "amount": -4,
+                  "amount": -3,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_speed",
                   "slot": "mainhand"
