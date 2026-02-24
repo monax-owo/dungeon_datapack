@@ -1,0 +1,1 @@
+summon minecraft:wither ~ ~1 ~ {Health:1000.0f,Tags:["boss2"],attributes:[{base:2.0d,id:"minecraft:scale"},{base:0.4d,id:"minecraft:movement_speed"},{base:1000.0d,id:"minecraft:max_health"},{base:50.0d,id:"minecraft:attack_damage"},{base:100.0d,id:"minecraft:follow_range"}]}
