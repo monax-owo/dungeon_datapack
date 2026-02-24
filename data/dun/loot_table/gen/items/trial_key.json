@@ -15,7 +15,14 @@
                   "italic": false
                 },
                 "minecraft:item_name": "",
-                "minecraft:rarity": "common"
+                "minecraft:rarity": "common",
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "blocks": "#util:can_loot_table"
+                    }
+                  ]
+                }
               }
             },
             {
