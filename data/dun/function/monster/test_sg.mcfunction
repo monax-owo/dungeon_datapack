@@ -1,5 +1,7 @@
 # 
 
+execute as @e[type=marker,tag=spawner] run function dun:monster/reset
+
 function dun:monster/spawn_group {group:"plain"}
 function dun:monster/spawn_group {group:"mineshaft"}
 function dun:monster/spawn_group {group:"jungle"}
