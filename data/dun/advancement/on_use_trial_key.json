@@ -24,6 +24,16 @@
                 "blocks": "#util:can_loot_table"
               }
             }
+          },
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "nbt": {
+                  "lock": {}
+                }
+              }
+            }
           }
         ]
       }
