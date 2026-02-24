@@ -22,7 +22,8 @@
                       "blocks": "#util:can_loot_table"
                     }
                   ]
-                }
+                },
+                "minecraft:max_stack_size": 1
               }
             },
             {
