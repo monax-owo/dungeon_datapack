@@ -1,4 +1,5 @@
 # 
+
 execute unless data storage calc: health run return 0
 execute unless data storage dun: current_group.ratio run return -1
 
@@ -10,4 +11,4 @@ scoreboard players operation #value dun.calc *= #ratio dun.calc
 
 execute store result storage calc: final_health double 0.0001 run scoreboard players get #value dun.calc
 
-tellraw @a[tag=debug] {storage:"calc:",nbt:"final_health"}
+# tellraw @a[tag=debug] {storage:"calc:",nbt:"final_health"}
