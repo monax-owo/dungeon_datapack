@@ -1,0 +1,15 @@
+{
+  "parent": "dun:floor/9_nether",
+  "display": {
+    "description": "エンドをクリアする",
+    "icon": {
+      "id": "end_portal_frame"
+    },
+    "title": "エンド"
+  },
+  "criteria": {
+    "": {
+      "trigger": "impossible"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "parent": "dun:root",
+  "display": {
+    "description": "平原をクリアする",
+    "icon": {
+      "id": "grass_block"
+    },
+    "title": "平原"
+  },
+  "criteria": {
+    "": {
+      "trigger": "impossible"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "parent": "dun:floor/5_taiga",
+  "display": {
+    "description": "凍った海をクリアする",
+    "icon": {
+      "id": "packed_ice"
+    },
+    "title": "凍った海"
+  },
+  "criteria": {
+    "": {
+      "trigger": "impossible"
+    }
+  }
+}

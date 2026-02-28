@@ -1,0 +1,15 @@
+{
+  "parent": "dun:floor/7_monument",
+  "display": {
+    "description": "砂漠をクリアする",
+    "icon": {
+      "id": "sand"
+    },
+    "title": "砂漠"
+  },
+  "criteria": {
+    "": {
+      "trigger": "impossible"
+    }
+  }
+}

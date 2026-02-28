@@ -1,0 +1,15 @@
+{
+  "parent": "dun:floor/4_mansion",
+  "display": {
+    "description": "タイガをクリアする",
+    "icon": {
+      "id": "snowball"
+    },
+    "title": "タイガ"
+  },
+  "criteria": {
+    "": {
+      "trigger": "impossible"
+    }
+  }
+}

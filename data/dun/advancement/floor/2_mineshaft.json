@@ -1,0 +1,15 @@
+{
+  "parent": "dun:floor/1_plain",
+  "display": {
+    "description": "廃鉱をクリアする",
+    "icon": {
+      "id": "iron_ore"
+    },
+    "title": "廃鉱"
+  },
+  "criteria": {
+    "": {
+      "trigger": "impossible"
+    }
+  }
+}

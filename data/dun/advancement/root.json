@@ -4,7 +4,8 @@
       "id": "chest"
     },
     "title": "Welcome to Dungeon!",
-    "description": "冒険家になる"
+    "description": "ようこそ",
+    "background": "block/stone_bricks"
   },
   "criteria": {
     "": {

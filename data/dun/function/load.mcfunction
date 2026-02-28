@@ -1,4 +1,6 @@
 # 
+execute unless data storage dun: {initialized:true} run function dun:init
+
 scoreboard objectives add duration dummy
 scoreboard objectives add sonic_charge dummy
 scoreboard objectives add ice dummy

@@ -1,0 +1,15 @@
+{
+  "parent": "dun:floor/2_mineshaft",
+  "display": {
+    "description": "ジャングルをクリアする",
+    "icon": {
+      "id": "jungle_sapling"
+    },
+    "title": "ジャングル"
+  },
+  "criteria": {
+    "": {
+      "trigger": "impossible"
+    }
+  }
+}

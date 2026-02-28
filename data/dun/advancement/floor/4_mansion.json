@@ -1,0 +1,15 @@
+{
+  "parent": "dun:floor/3_jungle",
+  "display": {
+    "description": "森の洋館をクリアする",
+    "icon": {
+      "id": "totem_of_undying"
+    },
+    "title": "森の洋館"
+  },
+  "criteria": {
+    "": {
+      "trigger": "impossible"
+    }
+  }
+}
