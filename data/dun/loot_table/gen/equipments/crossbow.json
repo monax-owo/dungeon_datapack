@@ -23,9 +23,9 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "looting": {
-                  "tier": 2,
+                  "tier": 3,
                   "name": {
-                    "text": "クロスボウ",
+                    "text": "ちょっと良いクロスボウ",
                     "color": "white"
                   }
                 },
