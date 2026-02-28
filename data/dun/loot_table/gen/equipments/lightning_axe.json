@@ -43,8 +43,8 @@
                 },
                 "loot_table": "dun:gen/equipments/lightning_axe",
                 "usable": {
-                  "loot_table": "dun:gen.equipments/lightning_axe",
-                  "command": "function dun:item/lightning_axe/lightning_sword"
+                  "loot_table": "dun:gen/equipments/lightning_axe",
+                  "command": "function dun:item/lightning_axe/_summon_lightning"
                 }
               }
             },
