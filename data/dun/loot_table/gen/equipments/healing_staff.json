@@ -18,13 +18,13 @@
                 "minecraft:rarity": "common",
                 "item_model": "trident",
                 "consumable": {
-                  "consume_seconds": 1,
+                  "consume_seconds": 3,
                   "animation": "bow",
                   "sound": "intentionally_empty",
                   "has_consume_particles": false
                 },
                 "use_cooldown": {
-                  "seconds": 1
+                  "seconds": 30
                 },
                 "!jukebox_playable": {},
                 "minecraft:unbreakable": {}

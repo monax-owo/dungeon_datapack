@@ -23,7 +23,7 @@
                   "has_consume_particles": false
                 },
                 "use_cooldown": {
-                  "seconds": 1
+                  "seconds": 10
                 },
                 "minecraft:unbreakable": {}
               }

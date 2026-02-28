@@ -36,8 +36,8 @@
                 "looting": {
                   "tier": 2,
                   "name": {
-                    "text": "残響の弓",
-                    "color": "aqua"
+                    "text": "しょぼい弓",
+                    "color": "white"
                   }
                 },
                 "money": {
