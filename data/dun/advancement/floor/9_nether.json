@@ -1,0 +1,15 @@
+{
+  "parent": "dun:floor/8_desert",
+  "display": {
+    "description": "ネザーをクリアする",
+    "icon": {
+      "id": "magma_block"
+    },
+    "title": "ネザー"
+  },
+  "criteria": {
+    "": {
+      "trigger": "impossible"
+    }
+  }
+}
