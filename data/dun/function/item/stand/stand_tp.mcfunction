@@ -1,1 +1,1 @@
-execute as @a at @s run tp @e[type=armor_stand,tag= stand,scores={duration=-19..}] ^ ^ ^1 ~ ~
+execute as @p at @s run tp @e[type=armor_stand,tag= stand,scores={duration=-19..},distance=..2] ^ ^ ^1 ~ ~
