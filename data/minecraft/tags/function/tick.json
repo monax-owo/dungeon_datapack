@@ -1,5 +1,6 @@
 {
   "values": [
+    "#uuid_sel:tick",
     "#money:tick",
     "#dun:tick",
     "#portal:tick"
