@@ -2,9 +2,9 @@
 
 summon pillager ~ ~ ~ {Tags:["dun","summon"]}
 
-data modify entity @e[tag=summon,sort=nearest,limit=1] equipment merge value {mainhand:{id:"crossbow"},offhand:{id:"tipped_arrow",components:{item_model:"air"}}}
+data modify entity @n[tag=summon] equipment merge value {mainhand:{id:"crossbow"},offhand:{id:"tipped_arrow",components:{item_model:"air"}}}
 
 data modify storage calc: health set from entity @n[tag=summon] Health
 function dun:monster/set_health
 
-tag @e[type=pillager,sort=nearest,limit=1] remove summon
+tag @n[tag=summon] remove summon
