@@ -1,4 +1,6 @@
 # 
 
 summon zombie ~ ~ ~ {Tags:["dun","boss.summoning"],CustomName:"ぼす"}
-execute as @n[tag=dun] run function dun:bossbar/apply
+
+function dun:bossbar/apply_any
+

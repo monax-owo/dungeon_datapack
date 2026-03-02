@@ -1,5 +1,7 @@
 # 
 
+execute if score #flag.bossbar flag.flag matches 1 run return 0
+
 scoreboard players add #index bossbar.id 1
 scoreboard players operation @s bossbar.id = #index bossbar.id
 

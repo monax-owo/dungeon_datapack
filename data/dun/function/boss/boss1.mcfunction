@@ -5,4 +5,3 @@ summon minecraft:ravager 6 17 67 {CustomName:"ラヴェ子",Health:60.0f,Tags:["
 summon minecraft:ravager 6 17 63 {CustomName:"ラヴェ子",Health:60.0f,Tags:["boss1","boss.summoning"],attributes:[{base:1.d,id:"minecraft:scale"},{base:0.2d,id:"minecraft:movement_speed"},{base:60d,id:"minecraft:max_health"},{base:0.7,id:scale},{base:0.4,id:movement_speed}],equipment:{mainhand:{count:1,id:"minecraft:iron_axe"}}}
 
 function dun:bossbar/apply_any
-
