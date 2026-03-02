@@ -1,0 +1,3 @@
+# 
+
+summon minecraft:elder_guardian ~ ~1 ~ {CustomName:"エル子",Health:200.0f,Tags:["boss2"],attributes:[{base:1.0d,id:"minecraft:scale"},{base:0.4d,id:"minecraft:movement_speed"},{base:200d,id:"minecraft:max_health"},{base:10.0d,id:"minecraft:attack_damage"}]}
