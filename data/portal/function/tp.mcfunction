@@ -2,6 +2,8 @@
 
 $execute unless data storage portal: dimensions[{id:"$(dimension)"}] run return 0
 
+execute if data entity @s data.portal{pos:"~ ~ ~"} run return -1
+
 execute unless data entity @s data.portal.rotation run data modify entity @s data.portal.rotation set value "~ ~"
 data modify storage portal: _temp set from entity @s data.portal
 
