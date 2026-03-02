@@ -1,5 +1,6 @@
-# {index, value}
+# {id}
 
-$execute as @e[scores={bossbar.id=$(value)}] store result bossbar boss:$(value) value run data get entity @s Health
-$execute unless entity @e[scores={bossbar.id=$(value)}] run data remove storage boss: targets[$(index)]
-$execute unless entity @e[scores={bossbar.id=$(value)}] run bossbar remove boss:$(value)
+$bossbar set boss:$(id) players @a
+$execute as @n[scores={bossbar.id=$(id)}] store result bossbar boss:$(id) value run data get entity @s Health
+$execute unless entity @n[scores={bossbar.id=$(id)}] run data remove storage boss: targets[{id:$(id)}]
+$execute unless entity @n[scores={bossbar.id=$(id)}] run bossbar remove boss:$(id)

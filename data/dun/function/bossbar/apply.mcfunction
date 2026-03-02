@@ -6,7 +6,7 @@ scoreboard players add #index bossbar.id 1
 scoreboard players operation @s bossbar.id = #index bossbar.id
 
 execute store result storage boss: _summon.id int 1 run scoreboard players get #index bossbar.id
-data modify storage boss: targets append from storage boss: _summon.id
+data modify storage boss: targets append from storage boss: _summon
 
 execute if data entity @s CustomName run data modify storage boss: _summon.name set from entity @s CustomName
 execute unless data entity @s CustomName run data modify storage boss: _summon.name set value ""
@@ -14,7 +14,7 @@ execute unless data entity @s CustomName run data modify storage boss: _summon.n
 execute store result storage boss: _summon.health int 1 run data get entity @s Health
 
 tellraw @a[team=admin,tag=debug] {storage:"boss:",nbt:"_summon"}
-function dun:bossbar/_add_bossbar with storage boss: _summon
+execute at @s run function dun:bossbar/_add_bossbar with storage boss: _summon
 
 # clear
 data remove storage boss: _summon
