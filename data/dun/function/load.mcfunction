@@ -12,6 +12,7 @@ data modify storage dun: groups set value [\
 {id:"plain",name:"平原",ratio:1.2},\
 {id:"mineshaft",name:"廃鉱",ratio:1.4},\
 {id:"jungle",name:"ジャングル",ratio:1.6},\
+{id:"ship",name:"船",ratio:1.6},\
 {id:"mansion",name:"森の洋館",ratio:1.8},\
 {id:"taiga",name:"タイガ",ratio:2},\
 {id:"frozen_ocean",name:"凍った海",ratio:2.2},\
