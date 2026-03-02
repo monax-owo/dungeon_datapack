@@ -1,5 +1,5 @@
 # {pos: position, rotation: rotation, dimension: string, distance: int}
-# Example: {pos: "~ ~ ~", rotation: "~ ~", dimension: "overworld", distance: 1}
+# Example: {pos: "~ ~ ~", rotation: "~ ~", dimension: "overworld", distance: 0.5}
 
 $execute if loaded $(pos)
 
