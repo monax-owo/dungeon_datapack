@@ -1,6 +1,6 @@
-# {pos: position, dimension: string}
+# {pos: position, rotation: rotation, dimension: string}
 
-$execute in $(dimension) run tp @s $(pos)
+$execute in $(dimension) run tp @s $(pos) $(rotation)
 
 effect give @s minecraft:blindness 1 1 true
 effect give @s minecraft:slowness 1 3 true
