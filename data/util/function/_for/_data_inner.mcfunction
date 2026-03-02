@@ -1,6 +1,8 @@
 # {command, data, index, for_id}
 
-$data modify storage util: for_data_args_$(for_id).value merge from $(data)[$(index)]
+$execute if data storage util: for_data_args_$(for_id).value run data modify storage util: for_data_args_$(for_id).value merge from $(data)[$(index)]
+$execute unless data storage util: for_data_args_$(for_id).value run data modify storage util: for_data_args_$(for_id).value set from $(data)[$(index)]
+
 $data modify storage util: for_data_args_$(for_id) merge from $(data)[$(index)]
 
 $$(command)
