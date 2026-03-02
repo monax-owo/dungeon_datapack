@@ -1,9 +1,9 @@
 # 
 
-execute store result score #value _rand run random value 0..4
+execute store result score #value _rand run random value 1..50
 
-execute if score #value _rand matches 0 run function dun:monster/summon/zombie
-execute if score #value _rand matches 1 run function dun:monster/summon/skeleton
-execute if score #value _rand matches 2 run function dun:monster/summon/creeper
-execute if score #value _rand matches 3 run function dun:monster/summon/spider
-execute if score #value _rand matches 4 run function dun:monster/summon/slime
+execute if score #value _rand matches 1..10 run function dun:monster/summon/zombie
+execute if score #value _rand matches 11..20 run function dun:monster/summon/skeleton
+execute if score #value _rand matches 21..30 run function dun:monster/summon/creeper
+execute if score #value _rand matches 31..35 run function dun:monster/summon/spider
+execute if score #value _rand matches 36..50 run function dun:monster/summon/slime
