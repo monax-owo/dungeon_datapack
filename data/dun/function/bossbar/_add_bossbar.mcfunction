@@ -2,6 +2,6 @@
 
 $tellraw @a[team=admin,tag=debug] ["bossbar id:$(id)"]
 
-$bossbar add dun:$(id) "$(name)"
-$bossbar set dun:$(id) max $(health)
-$bossbar set dun:$(id) players @a
+$bossbar add boss:$(id) "$(name)"
+$bossbar set boss:$(id) max $(health)
+$bossbar set boss:$(id) players @a
