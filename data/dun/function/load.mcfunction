@@ -24,6 +24,6 @@ data modify storage dun: groups set value [\
 
 scoreboard objectives add dun.calc dummy
 
-function dun:boss/load
+function dun:bossbar/load
 function dun:chest/load
 function dun:monster/load
