@@ -1,7 +1,7 @@
 # 
 
-summon minecraft:evoker 7 17 65 {CustomName:"エヴォ子",Health:300.0f,Tags:["boss1","boss.summoning"],attributes:[{base:2.0d,id:"minecraft:scale"},{base:0.3d,id:"minecraft:movement_speed"},{base:300d,id:"minecraft:max_health"},{base:50.0d,id:"minecraft:attack_damage"}]}
-summon minecraft:ravager 6 17 67 {CustomName:"ラヴェ子",Health:60.0f,Tags:["boss1","boss.summoning"],attributes:[{base:1.d,id:"minecraft:scale"},{base:0.2d,id:"minecraft:movement_speed"},{base:60d,id:"minecraft:max_health"},{base:0.7,id:scale},{base:0.4,id:movement_speed}],equipment:{mainhand:{count:1,id:"minecraft:iron_axe"}}}
-summon minecraft:ravager 6 17 63 {CustomName:"ラヴェ子",Health:60.0f,Tags:["boss1","boss.summoning"],attributes:[{base:1.d,id:"minecraft:scale"},{base:0.2d,id:"minecraft:movement_speed"},{base:60d,id:"minecraft:max_health"},{base:0.7,id:scale},{base:0.4,id:movement_speed}],equipment:{mainhand:{count:1,id:"minecraft:iron_axe"}}}
+summon minecraft:evoker 7 17 65 {CustomName:"エヴォ子",Health:300.0f,Tags:["dun","boss1","boss.summoning"],attributes:[{base:2.0d,id:"minecraft:scale"},{base:0.3d,id:"minecraft:movement_speed"},{base:300d,id:"minecraft:max_health"},{base:50.0d,id:"minecraft:attack_damage"}]}
+summon minecraft:ravager 6 17 67 {CustomName:"ラヴェ子",Health:60.0f,Tags:["dun","boss1","boss.summoning"],attributes:[{base:1.d,id:"minecraft:scale"},{base:0.2d,id:"minecraft:movement_speed"},{base:60d,id:"minecraft:max_health"},{base:0.7,id:scale},{base:0.4,id:movement_speed}],equipment:{mainhand:{count:1,id:"minecraft:iron_axe"}}}
+summon minecraft:ravager 6 17 63 {CustomName:"ラヴェ子",Health:60.0f,Tags:["dun","boss1","boss.summoning"],attributes:[{base:1.d,id:"minecraft:scale"},{base:0.2d,id:"minecraft:movement_speed"},{base:60d,id:"minecraft:max_health"},{base:0.7,id:scale},{base:0.4,id:movement_speed}],equipment:{mainhand:{count:1,id:"minecraft:iron_axe"}}}
 
 function dun:bossbar/apply_any
