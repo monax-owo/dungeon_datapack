@@ -4,8 +4,6 @@ execute unless data storage dun: {initialized:true} run function dun:init
 scoreboard objectives add duration dummy
 scoreboard objectives add item.sonic_charge dummy
 scoreboard objectives add item.ice dummy
-scoreboard objectives add damage minecraft.custom:minecraft.damage_dealt
-scoreboard objectives add sneak minecraft.custom:sneak_time
 
 data modify storage dun: groups set value [\
 {id:"plain",name:"平原",ratio:1.2},\
