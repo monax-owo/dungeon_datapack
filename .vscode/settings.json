@@ -5,6 +5,7 @@
     "playsound",
     "rawtext",
     "setdisplay",
+    "stopsound",
     "tellraw"
   ]
 }
