@@ -8,14 +8,18 @@ scoreboard players operation @s bossbar.id = #index bossbar.id
 execute store result storage boss: _summon.id int 1 run scoreboard players get #index bossbar.id
 data modify storage boss: targets append from storage boss: _summon
 
-execute if data entity @s CustomName run data modify storage boss: _summon.name set from entity @s CustomName
-execute unless data entity @s CustomName run data modify storage boss: _summon.name set value ""
+execute if data entity @s CustomName if data entity @s CustomName{} run data modify storage boss: _summon.name set from entity @s CustomName
+execute if data entity @s CustomName unless data entity @s CustomName{} run function dun:bossbar/_name with entity @s
+execute unless data entity @s CustomName run data modify storage boss: _summon.name set value "BOSS"
 
 execute store result storage boss: _summon.health int 1 run data get entity @s Health
 
 tellraw @a[team=admin,tag=debug] {storage:"boss:",nbt:"_summon"}
 execute at @s run function dun:bossbar/_add_bossbar with storage boss: _summon
 
+function dun:bossbar/_check with storage boss: _summon
+
 # clear
 data remove storage boss: _summon
 tag @s remove boss.summoning
+execute if data storage typeof: in{} run return run data modify storage typeof: out set value "compound"
