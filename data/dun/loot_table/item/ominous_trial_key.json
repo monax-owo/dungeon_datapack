@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ominous_trial_key",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
+                },
+                "minecraft:item_name": "",
+                "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 4,
+                  "name": {
+                    "text": "宝物庫の鍵",
+                    "color": "gold"
+                  },
+                  "lore": ["船長の亡霊が落とした鍵", "ほんのり海の香りがする"]
+                },
+                "money": {
+                  "price": 1400
+                },
+                "loot_table": "dun:gen/items/ominous_trial_key"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
