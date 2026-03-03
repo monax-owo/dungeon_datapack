@@ -1,10 +1,12 @@
-execute as @e[scores={ice=-10..}] at @s run scoreboard players remove @s ice 1
-execute as @e[scores={ice=10..},tag=summon_ice] at @s run item replace entity @s armor.head with ice
-execute as @e[scores={ice=79},tag=summon_ice] at @s run playsound entity.skeleton.converted_to_stray master @a ~ ~2 ~ 2 1 0
-execute as @e[scores={ice=70},tag=summon_ice] at @s run stopsound @a master entity.skeleton.converted_to_stray
+# 
+
+execute as @e[scores={item.ice=-10..}] at @s run scoreboard players remove @s item.ice 1
+execute as @e[scores={item.ice=10..},tag=summon_ice] at @s run item replace entity @s armor.head with ice
+execute as @e[scores={item.ice=79},tag=summon_ice] at @s run playsound entity.skeleton.converted_to_stray master @a ~ ~2 ~ 2 1 0
+execute as @e[scores={item.ice=70},tag=summon_ice] at @s run stopsound @a master entity.skeleton.converted_to_stray
 execute as @e[type=!#dun:ignore_damage] at @s if entity @e[type=armor_stand,tag=summon_ice,distance=..2] run damage @s 5 freeze by @s
 execute as @e[type=!#dun:ignore_damage,tag=boss] at @s if entity @e[type=armor_stand,tag=summon_ice,distance=..3] run damage @s 2 freeze by @s
 
-execute as @e[scores={ice=..-10}] at @s run scoreboard players set @s ice -10
-execute as @e[scores={ice=0},tag=summon_ice] at @s run playsound block.glass.break master @a ~ ~2 ~ 2 1 0
-execute as @e[scores={ice=-1},tag=summon_ice] at @s run kill @s
+execute as @e[scores={item.ice=..-10}] at @s run scoreboard players set @s item.ice -10
+execute as @e[scores={item.ice=0},tag=summon_ice] at @s run playsound block.glass.break master @a ~ ~2 ~ 2 1 0
+execute as @e[scores={item.ice=-1},tag=summon_ice] at @s run kill @s
