@@ -3,6 +3,7 @@
     "actionbar",
     "bossbar",
     "playsound",
+    "rawtext",
     "setdisplay",
     "tellraw"
   ]

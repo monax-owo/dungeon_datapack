@@ -1,4 +1,4 @@
-# {id: string, name: string, health: number}
+# {id: string, name: rawtext, health: number}
 
 $tellraw @a[team=admin,tag=debug] ["bossbar id:$(id)"]
 
