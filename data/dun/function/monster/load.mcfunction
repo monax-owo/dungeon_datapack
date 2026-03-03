@@ -1,1 +1,0 @@
-scoreboard objectives add _rand dummy

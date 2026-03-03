@@ -1,6 +1,7 @@
 # 
 execute unless data storage dun: {initialized:true} run function dun:init
 
+scoreboard objectives add dun.rand dummy
 scoreboard objectives add duration dummy
 scoreboard objectives add item.sonic_charge dummy
 scoreboard objectives add item.ice dummy
@@ -23,4 +24,3 @@ scoreboard objectives add dun.calc dummy
 
 function dun:bossbar/load
 function dun:chest/load
-function dun:monster/load
