@@ -1,3 +1,5 @@
+# 
+
 summon armor_stand ^ ^0.5 ^ {Tags:["iron"],Invisible:true,NoGravity:true,Invulnerable:true}
 playsound entity.player.attack.sweep master @p ^ ^ ^1.5 1 0.3 0
 playsound entity.warden.attack_impact master @p ^ ^ ^1.5 1 0.5 0

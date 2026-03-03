@@ -1,3 +1,5 @@
+# 
+
 scoreboard players remove @s duration 1
 execute as @e[tag=heal] at @s run particle happy_villager ^ ^0.1 ^3 0 0 0 1 2
 execute as @e[tag=heal] at @s run particle happy_villager ~ ~ ~ 1 2 1 5 1

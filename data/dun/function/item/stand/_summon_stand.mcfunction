@@ -1,3 +1,5 @@
+# 
+
 playsound minecraft:entity.enderman.teleport master @a ^ ^ ^ 0.5 0.8 0
 # summon armor_stand ^ ^ ^-1 {Tags:["stand"],Invisible:false,NoGravity:true}
 # summon armor_stand ^ ^ ^-1 {Tags:["stand"],Invulnerable:true,NoBasePlate:true,NoGravity:true,ShowArms:true,Pose:{Body:[0f,0f,6f],LeftLeg:[0f,0f,11f],RightLeg:[0f,0f,349f],LeftArm:[0f,0f,11f],RightArm:[0f,0f,17f]},equipment:{head:{id:"player_head",count:1,components:{profile:{name:"ka_kun1712"}}},chest:{id:"iron_chestplate",count:1},legs:{id:"iron_leggings",count:1},feet:{id:"iron_boots",count:1}}}

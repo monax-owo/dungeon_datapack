@@ -1,3 +1,5 @@
+# 
+
 scoreboard players remove @s duration 1
 
 execute as @e[type=!#dun:ignore_damage] at @s if entity @e[type=armor_stand, tag= flame,distance=..3] run damage @s 10 on_fire by @s

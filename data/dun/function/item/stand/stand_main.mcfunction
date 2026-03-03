@@ -1,1 +1,3 @@
+# 
+
 execute as @e[type=armor_stand,tag=stand] at @s run function dun:item/stand/stand

@@ -1,3 +1,5 @@
+# 
+
 scoreboard players remove @s duration 1
 execute as @s[scores={duration=..39,duration=29..},tag=stand] at @s run particle reverse_portal ~ ~0.5 ~ 0 1 0 0.5 10
 execute as @s[scores={duration=25..},tag=stand] at @s run function dun:item/stand/stand_tp2
@@ -48,4 +50,3 @@ execute as @s[scores={duration=-20},tag=stand] at @s run tp @s ^ ^ ^ ~100 ~
 execute as @s[scores={duration=-34},tag=stand] at @s run particle reverse_portal ~ ~0.5 ~ 0 0 0 3 50
 execute as @s[scores={duration=-34},tag=stand] at @s run playsound minecraft:entity.enderman.teleport master @a ^ ^ ^ 0.5 1 0
 kill @s[scores={duration=..-35}]
-

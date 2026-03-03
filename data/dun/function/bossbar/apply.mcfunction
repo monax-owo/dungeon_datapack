@@ -22,4 +22,3 @@ function dun:bossbar/_check with storage boss: _summon
 # clear
 data remove storage boss: _summon
 tag @s remove boss.summoning
-execute if data storage typeof: in{} run return run data modify storage typeof: out set value "compound"

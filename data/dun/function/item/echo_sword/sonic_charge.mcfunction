@@ -1,3 +1,5 @@
+# 
+
 execute as @a[scores={item.sonic_charge=0..}] run scoreboard players remove @s item.sonic_charge 1
 
 execute as @a[scores={item.sonic_charge=33}] run effect give @s darkness 3

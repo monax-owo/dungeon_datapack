@@ -1,3 +1,5 @@
+# 
+
 summon armor_stand ^ ^0.5 ^ {Tags:["sonic"],Invisible:true,Invulnerable:true,Marker:true}
 tp @n[type=armor_stand,tag=sonic] ~ ~1 ~ ~ ~
 scoreboard players set @n[type=armor_stand,tag=sonic] duration 30

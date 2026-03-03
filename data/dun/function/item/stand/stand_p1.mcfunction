@@ -1,3 +1,5 @@
+# 
+
 # execute as @a at @s if entity @e[type=armor_stand,tag=heal,distance=..3] run particle heart ^ ^1.7 ^ 0.1 0 0.1 3 3
 tp @s ~ ~ ~ ~-30 ~
 summon marker ^ ^ ^2 {Tags:["stand1"]}

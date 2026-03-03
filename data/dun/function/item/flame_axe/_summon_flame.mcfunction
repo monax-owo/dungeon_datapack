@@ -1,3 +1,5 @@
+# 
+
 summon armor_stand ^ ^2 ^2 {Tags:["flame"],Invisible: true,attributes:[{id: "gravity",base:100000}],Invulnerable:true}
 execute as @e[type=!#dun:ignore_damage] at @s if entity @n[type=armor_stand,tag=flame,distance=..4] run damage @s 10 on_fire by @s
 
