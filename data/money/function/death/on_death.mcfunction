@@ -1,3 +1,5 @@
+# 
+
 tellraw @a[team=admin,tag=debug] ["dead: ",{selector:"@s"}]
 
 # clear

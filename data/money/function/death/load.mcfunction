@@ -1,3 +1,5 @@
+# 
+
 scoreboard objectives add death_count deathCount
 scoreboard objectives add death_count.diff dummy
 
