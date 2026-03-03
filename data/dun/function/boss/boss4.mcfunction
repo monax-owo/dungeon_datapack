@@ -1,6 +1,6 @@
 # 
 
-summon minecraft:wither ~ ~1 ~ {CustomName:"ウィザ子",Health:300.0f,Tags:["dun","boss4","boss.summoning"],attributes:[{base:2.0d,id:"minecraft:scale"},{base:0.4d,id:"minecraft:movement_speed"},{base:300d,id:"minecraft:max_health"},{base:7.0d,id:"minecraft:attack_damage"}]}
+summon minecraft:wither -20 61 94 {CustomName:"ウィザ子",Health:500.0f,Tags:["dun","boss4","boss.summoning"],attributes:[{base:2.0d,id:"minecraft:scale"},{base:0.4d,id:"minecraft:movement_speed"},{base:300d,id:"minecraft:max_health"},{base:7.0d,id:"minecraft:attack_damage"}]}
 # summon minecraft:magma_cube ~ ~1 ~1 {CustomName:"マグ子",Health:30.0f,Tags:["dun","boss4","boss.summoning"],attributes:[{base:1.d,id:"minecraft:scale"},{base:0.4d,id:"minecraft:movement_speed"},{base:60d,id:"minecraft:max_health"},{base:0.7,id:scale},{base:0.4,id:movement_speed}]}
 # summon minecraft:piglin_brute ~ ~1 ~-1 {CustomName:"ピグ子",Health:30.0f,Tags:["dun","boss4","boss.summoning"],attributes:[{base:1.d,id:"minecraft:scale"},{base:0.4d,id:"minecraft:movement_speed"},{base:60d,id:"minecraft:max_health"},{base:0.7,id:scale},{base:0.4,id:movement_speed}],equipment:{mainhand:{count:1,id:"minecraft:golden_axe"}}}
 
