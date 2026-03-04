@@ -1,6 +1,7 @@
 # 
 
 execute unless data entity @s SelectedItem.components."minecraft:custom_data".looting run return fail
+item modify entity @s weapon.mainhand {function:"set_custom_data",tag:{looting:{searched:true}}}
 
 execute if data entity @s SelectedItem.components."minecraft:custom_data".looting{tier:1b} run item modify entity @s weapon.mainhand looting:1
 execute if data entity @s SelectedItem.components."minecraft:custom_data".looting{tier:2b} run item modify entity @s weapon.mainhand looting:2
@@ -9,10 +10,8 @@ execute if data entity @s SelectedItem.components."minecraft:custom_data".lootin
 execute if data entity @s SelectedItem.components."minecraft:custom_data".looting{tier:5b} run item modify entity @s weapon.mainhand looting:5
 execute if data entity @s SelectedItem.components."minecraft:custom_data".looting{tier:9b} run item modify entity @s weapon.mainhand looting:9
 
-execute if data entity @s SelectedItem.components."minecraft:custom_data".looting.lore run function util:for_array_fn {function:"looting:modifier/set_lore",data:"entity @s SelectedItem.components.minecraft:custom_data.looting.lore",for_id:0,start_index:0}
+# execute if data entity @s SelectedItem.components."minecraft:custom_data".looting.lore run function util:for_array_fn {function:"looting:modifier/set_lore",data:"entity @s SelectedItem.components.minecraft:custom_data.looting.lore",for_id:0,start_index:0}
 
 execute if data entity @s SelectedItem.components."minecraft:custom_data".looting{silent:true} run return 0
 playsound minecraft:entity.item.pickup master @s ~ ~ ~ 0.2 2
 tellraw @s {entity:"@s",nbt:"SelectedItem.components.minecraft:custom_name",interpret:true}
-
-item modify entity @s weapon.mainhand {function:"set_custom_data",tag:{looting:{searched:true}}}
