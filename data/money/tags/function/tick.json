@@ -1,7 +1,5 @@
 {
   "values": [
-    "money:tick",
-    "money:death/tick",
-    "money:seller/tick"
+    "money:tick"
   ]
 }

@@ -1,5 +1,9 @@
 # 
 
+scoreboard players add #flag.money.death flag.flag 0
+scoreboard players add #flag.money.gacha flag.flag 0
+scoreboard players add #flag.money.seller flag.flag 0
+
 function money:villager/load
 function money:admin/load
 function money:death/load
