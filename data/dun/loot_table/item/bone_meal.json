@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:ominous_trial_key",
+          "name": "minecraft:bone_meal",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -24,15 +24,15 @@
                 "looting": {
                   "tier": 4,
                   "name": {
-                    "text": "宝物庫の鍵",
+                    "text": "ミイラの破片",
                     "color": "gold"
                   },
-                  "lore": ["船長の亡霊が落とした鍵", "ほんのり海の香りがする"]
+                  "lore": ["古代の王が落とした破片", "不思議な力を感じる"]
                 },
                 "money": {
                   "price": 1400
                 },
-                "loot_table": "dun:item/ominous_trial_key"
+                "loot_table": "dun:item/bone_meal"
               }
             }
           ]
