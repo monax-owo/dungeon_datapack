@@ -13,4 +13,5 @@ execute if entity @s[scores={money.calc=35}] run function money:gacha/apply
 execute if entity @s[scores={money.calc=40}] run function money:gacha/apply
 
 execute if score @s money.calc matches 40.. run scoreboard players reset @s money.calc
+# TODO: as プレイヤーしたい()
 execute if score @s money.calc matches 40.. run function money:gacha/pop
