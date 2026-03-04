@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
+                },
+                "minecraft:item_name": "",
+                "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 5,
+                  "name": {
+                    "text": "不死のトーテム",
+                    "color": "gold"
+                  },
+                  "lore": [
+                    "エヴォーカーが大事そうに持っていたトーテム",
+                    "右足の裏に名前が書いてある"
+                  ]
+                },
+                "money": {
+                  "price": 1400
+                },
+                "loot_table": "dun:item/totem_of_undying"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

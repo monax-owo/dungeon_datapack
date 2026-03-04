@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "instrument": "minecraft:sing_goat_horn",
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
+                },
+                "minecraft:item_name": "",
+                "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 5,
+                  "name": {
+                    "text": "ラヴェジャーの角笛",
+                    "color": "gold"
+                  },
+                  "lore": [
+                    "ラヴェジャーの角で作られた角笛",
+                    "見た目の割に愉快な音がなるようだ"
+                  ]
+                },
+                "money": {
+                  "price": 1400
+                },
+                "loot_table": "dun:item/goat_horn"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
