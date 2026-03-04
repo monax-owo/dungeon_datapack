@@ -11,4 +11,4 @@ function util:_for/_data_inner with storage util: args[-1]
 # clear args
 $scoreboard players reset #index.$(for_id) for.index
 # ok?
-data remove storage util: args[0]
+data remove storage util: args[-1]
