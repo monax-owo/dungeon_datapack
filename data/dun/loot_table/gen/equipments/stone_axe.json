@@ -40,7 +40,7 @@
               "modifiers": [
                 {
                   "attribute": "attack_damage",
-                  "amount": 9,
+                  "amount": 14,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_damage",
                   "slot": "mainhand"
