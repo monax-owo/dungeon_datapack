@@ -4,14 +4,7 @@ $execute unless data $(data)[$(start_index)] run return fail
 
 # init
 $scoreboard players set #index.$(for_id) for.index $(start_index)
-
-# init args
-data modify storage util: args append value {}
-# TODO: ref
-$data modify storage util: args[-1].command set value "$(command)"
-$data modify storage util: args[-1].data set value "$(data)"
-$data modify storage util: args[-1].for_id set value "$(for_id)"
-$data modify storage util: args[-1].index set value $(start_index)
+$data modify storage util: args append value {command:"$(command)",data:"$(data)",for_id:"$(for_id)",index:$(start_index)}
 
 function util:_for/_data_inner with storage util: args[-1]
 
