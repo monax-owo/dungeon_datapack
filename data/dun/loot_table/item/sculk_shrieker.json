@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sculk_shrieker",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
+                },
+                "minecraft:item_name": "",
+                "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 5,
+                  "name": {
+                    "text": "？？？？",
+                    "color": "gold"
+                  },
+                  "lore": [
+                    "エンドに現れた怪物が落としたモノ",
+                    "中を覗くと呻き声が聞こえてくる"
+                  ]
+                },
+                "money": {
+                  "price": 1400
+                },
+                "loot_table": "dun:item/sculk_shrieker"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dragon_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
+                },
+                "minecraft:item_name": "",
+                "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 5,
+                  "name": {
+                    "text": "ドラゴンの卵",
+                    "color": "gold"
+                  },
+                  "lore": [
+                    "エンダードラドンが落とした卵",
+                    "どう調理しても美味しい"
+                  ]
+                },
+                "money": {
+                  "price": 1400
+                },
+                "loot_table": "dun:item/dragon_egg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
