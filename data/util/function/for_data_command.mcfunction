@@ -3,8 +3,7 @@
 $execute unless data $(data)[$(start_index)] run return fail
 
 # init
-$scoreboard objectives add for_data_temp_$(for_id) dummy
-$scoreboard players set #index for_data_temp_$(for_id) $(start_index)
+$scoreboard players set #index.$(for_id) for_data_temp $(start_index)
 
 # init args
 $data modify storage util: args_$(for_id).command set value "$(command)"
@@ -15,5 +14,5 @@ $data modify storage util: args_$(for_id).index set value $(start_index)
 $function util:_for/_data_inner with storage util: args_$(for_id)
 
 # clear args
-$scoreboard objectives remove for_data_temp_$(for_id)
+$scoreboard players reset #index.$(for_id) for_data_temp
 $data remove storage util: args_$(for_id)
