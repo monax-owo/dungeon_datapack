@@ -15,7 +15,7 @@ data modify storage money: _villager.potion.loot_tables set value [\
 ]
 
 function money:villager/set_data {data:"storage money: _villager.potion.loot_tables",output:"storage money: villager.potion.recipes"}
-function util:for_array_fn {function:"money:villager/merge",data:"storage money: villager.potion.recipes",args_id:0,for_id:0,start_index:0}
+function util:for_array_fn {function:"money:villager/merge",data:"storage money: villager.potion.recipes",for_id:0,start_index:0}
 
 # clear
 data remove entity @n[tag=money.villager.manager] equipment.mainhand
