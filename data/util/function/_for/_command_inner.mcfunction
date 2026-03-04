@@ -2,10 +2,6 @@
 
 $$(command)
 
-# debug
-# tellraw @a {score: {name:"#index", objective: "for_command_temp"}}
-# tellraw @a {storage: "util:", nbt: "index"}
-
 # increment
 scoreboard players add #index for_command_temp 1
 execute store result storage util: index int 1 run scoreboard players get #index for_command_temp
