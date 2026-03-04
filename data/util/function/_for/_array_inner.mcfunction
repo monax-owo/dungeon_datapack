@@ -1,8 +1,8 @@
 # {command, data, index, for_id}
 
 # TODO: bug
-$execute if data storage util: args[-1].value run data modify storage util: args[-1].value merge from $(data)[$(index)]
-$execute unless data storage util: args[-1].value run data modify storage util: args[-1].value set from $(data)[$(index)]
+$execute if data storage util: args[-1].value{} run data modify storage util: args[-1].value merge from $(data)[$(index)]
+$execute unless data storage util: args[-1].value{} run data modify storage util: args[-1].value set from $(data)[$(index)]
 
 $data modify storage util: args[-1] merge from $(data)[$(index)]
 
