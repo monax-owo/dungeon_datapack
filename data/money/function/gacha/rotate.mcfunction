@@ -1,5 +1,6 @@
 # 
 
+# TODO: 一瞬止まる時がある
 execute as @s[scores={money.calc=5}] run function money:gacha/apply
 execute as @s[scores={money.calc=10}] run function money:gacha/apply
 execute as @s[scores={money.calc=15}] run function money:gacha/apply
