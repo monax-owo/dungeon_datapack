@@ -2,6 +2,6 @@
 
 advancement revoke @s only looting:on_hand
 
-execute if data entity @s SelectedItem.components."minecraft:custom_data".looting{searched:true} run return fail
+execute if data entity @s SelectedItem.components."minecraft:custom_data".looting{searched:true} run return 0
 
 function looting:apply_item
