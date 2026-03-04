@@ -2,6 +2,7 @@
 
 execute unless score #flag.bossbar flag.flag matches 1 run return 0
 
+execute unless data storage boss: targets[0] run scoreboard players set #index bossbar.id 0
 scoreboard players add #index bossbar.id 1
 scoreboard players operation @s bossbar.id = #index bossbar.id
 
@@ -14,7 +15,9 @@ execute unless data entity @s CustomName run data modify storage boss: _summon.n
 
 execute store result storage boss: _summon.health int 1 run data get entity @s Health
 
-tellraw @a[team=admin,tag=debug] {storage:"boss:",nbt:"_summon"}
+# debug
+# tellraw @a[team=admin,tag=debug] {storage:"boss:",nbt:"_summon"}
+
 execute at @s run function dun:bossbar/_add_bossbar with storage boss: _summon
 
 function dun:bossbar/_check with storage boss: _summon
