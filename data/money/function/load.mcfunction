@@ -1,8 +1,8 @@
 # 
 
-scoreboard players add #flag.money.death flag.flag 0
-scoreboard players add #flag.money.gacha flag.flag 0
-scoreboard players add #flag.money.seller flag.flag 0
+execute unless score #flag.money.death flag.flag = #flag.money.death flag.flag run scoreboard players set #flag.money.death flag.flag 1
+execute unless score #flag.money.gacha flag.flag = #flag.money.gacha flag.flag run scoreboard players set #flag.money.gacha flag.flag 1
+execute unless score #flag.money.seller flag.flag = #flag.money.seller flag.flag run scoreboard players set #flag.money.seller flag.flag 1
 
 function money:villager/load
 function money:admin/load
