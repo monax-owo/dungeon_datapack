@@ -40,7 +40,7 @@
               "modifiers": [
                 {
                   "attribute": "armor",
-                  "amount": 5,
+                  "amount": 3,
                   "operation": "add_value",
                   "id": "minecraft:armor.chestplate",
                   "slot": "chest"
