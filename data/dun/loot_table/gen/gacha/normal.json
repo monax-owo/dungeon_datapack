@@ -162,13 +162,13 @@
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/bow",
-          "weight": 50,
+          "weight": 120,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/crossbow",
-          "weight": 50,
+          "weight": 80,
           "quality": 1
         },
         {
@@ -198,25 +198,25 @@
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/leather_boots",
-          "weight": 160,
+          "weight": 140,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/leather_helmet",
-          "weight": 160,
+          "weight": 140,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/leather_chestplate",
-          "weight": 160,
+          "weight": 140,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/leather_leggings",
-          "weight": 160,
+          "weight": 140,
           "quality": 1
         },
         {
@@ -228,13 +228,13 @@
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/wooden_sword",
-          "weight": 120,
+          "weight": 140,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/wooden_axe",
-          "weight": 120,
+          "weight": 140,
           "quality": 1
         },
         {
