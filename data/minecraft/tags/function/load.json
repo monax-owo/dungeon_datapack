@@ -1,6 +1,7 @@
 {
   "values": [
     "#flag:load",
+    "#usable:load",
     "#uuid_sel:load",
     "#util:load",
     "#money:load",
