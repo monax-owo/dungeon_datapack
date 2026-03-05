@@ -1,0 +1,85 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "",
+                "minecraft:item_model": "light_blue_concrete",
+                "minecraft:rarity": "common",
+                "minecraft:lore": [
+                  {
+                    "text": "右クリックで中身を取り出せる",
+                    "italic": false,
+                    "color": "white"
+                  }
+                ],
+                "!minecraft:jukebox_playable": {},
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "usable": {
+                  "loot_table": "{pools:[{rolls:10,entries:[{type:\"loot_table\",value:\"dun:gen\/gacha\/normal\"}]}]}",
+                  "mode": "give"
+                },
+                "loot_table": "money:compressed_capsule"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": {
+                "text": "圧縮されたカプセル",
+                "italic": false
+              }
+            },
+            {
+              "function": "filtered",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ],
+              "modifier": {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "rare"
+                }
+              },
+              "item_filter": {}
+            },
+            {
+              "function": "filtered",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.05
+                }
+              ],
+              "modifier": {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "epic"
+                }
+              },
+              "item_filter": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
