@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_5",
+          "name": "minecraft:bow",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -16,17 +16,6 @@
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common",
-                "item_model": "crossbow",
-                "consumable": {
-                  "consume_seconds": 2,
-                  "animation": "crossbow",
-                  "sound": "intentionally_empty",
-                  "has_consume_particles": false
-                },
-                "use_cooldown": {
-                  "seconds": 3
-                },
-                "!jukebox_playable": {},
                 "minecraft:unbreakable": {}
               }
             },
@@ -43,11 +32,7 @@
                 "money": {
                   "price": 100
                 },
-                "loot_table": "dun:gen/equipments/bow",
-                "usable": {
-                  "loot_table": "dun:gen/equipments/bow",
-                  "command": "function dun:item/arrow"
-                }
+                "loot_table": "dun:gen/equipments/bow"
               }
             },
             {
