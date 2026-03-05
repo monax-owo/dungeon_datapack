@@ -16,7 +16,7 @@ execute if score @s money.calc matches 40 run function money:gacha/apply
 
 scoreboard players add @s money.calc 1
 
-execute unless score @s money.calc matches 41.. run return 0
+execute if score @s money.calc matches ..40 run return 0
 scoreboard players reset @s money.calc
 execute on target run function money:gacha/pop
 
