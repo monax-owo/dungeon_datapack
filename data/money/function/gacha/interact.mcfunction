@@ -1,7 +1,6 @@
 # 
 
-scoreboard players add @s money.calc 0
-execute if score @s money.calc matches 0 run function money:gacha/_interact
+execute unless score @s money.calc matches 1.. run function money:gacha/_interact
 
 scoreboard players add @s money.calc 1
 
@@ -17,7 +16,6 @@ execute if score @s money.calc matches 40 run function money:gacha/apply
 
 execute unless score @s money.calc matches 40.. run return 0
 scoreboard players reset @s money.calc
-# TODO: as プレイヤーしたい()
 execute on target run function money:gacha/pop
 
 # clear
