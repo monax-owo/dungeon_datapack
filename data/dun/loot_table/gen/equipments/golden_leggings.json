@@ -40,7 +40,7 @@
               "modifiers": [
                 {
                   "attribute": "armor",
-                  "amount": 1,
+                  "amount": 5,
                   "operation": "add_value",
                   "id": "minecraft:armor.leggings",
                   "slot": "legs"

@@ -17,7 +17,7 @@
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common",
                 "consumable": {
-                  "consume_seconds": 1,
+                  "consume_seconds": 2,
                   "animation": "spear",
                   "sound": "intentionally_empty",
                   "has_consume_particles": false

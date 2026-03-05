@@ -16,6 +16,16 @@
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common",
+                "consumable": {
+                  "consume_seconds": 2,
+                  "animation": "crossbow",
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "use_cooldown": {
+                  "seconds": 3
+                },
+                "!jukebox_playable": {},
                 "minecraft:unbreakable": {}
               }
             },
@@ -32,7 +42,11 @@
                 "money": {
                   "price": 100
                 },
-                "loot_table": "dun:gen/equipments/bow"
+                "loot_table": "dun:gen/equipments/bow",
+                "usable": {
+                  "loot_table": "dun:gen/equipments/bow",
+                  "command": "function dun:item/arrow"
+                }
               }
             },
             {
