@@ -6,43 +6,43 @@
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/netherite_boots",
-          "weight": 1,
+          "weight": 2,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/netherite_helmet",
-          "weight": 1,
+          "weight": 2,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/netherite_chestplate",
-          "weight": 1,
+          "weight": 2,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/netherite_leggings",
-          "weight": 1,
+          "weight": 2,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/echo_sword",
-          "weight": 1,
+          "weight": 2,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/flame_axe",
-          "weight": 1,
+          "weight": 2,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/kusodekadonki",
-          "weight": 1,
+          "weight": 2,
           "quality": 1
         },
         {
@@ -162,13 +162,13 @@
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/bow",
-          "weight": 50,
+          "weight": 120,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/crossbow",
-          "weight": 50,
+          "weight": 80,
           "quality": 1
         },
         {
