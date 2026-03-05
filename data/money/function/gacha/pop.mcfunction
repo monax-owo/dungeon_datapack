@@ -1,3 +1,4 @@
 # 
 
-loot give @s loot dun:gen/gacha/normal
+loot give @s loot money:capsule
+say pop!
