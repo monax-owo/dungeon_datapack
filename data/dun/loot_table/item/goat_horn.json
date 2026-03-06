@@ -34,7 +34,7 @@
                   ]
                 },
                 "money": {
-                  "price": 1400
+                  "price": 800
                 },
                 "loot_table": "dun:item/goat_horn"
               }

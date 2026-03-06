@@ -33,7 +33,7 @@
                   ]
                 },
                 "money": {
-                  "price": 1400
+                  "price": 3000
                 },
                 "loot_table": "dun:item/dragon_egg"
               }

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:ominous_trial_key",
+          "name": "minecraft:nether_star",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -24,15 +24,18 @@
                 "looting": {
                   "tier": 4,
                   "name": {
-                    "text": "宝物庫の鍵",
+                    "text": "ウィザーコア",
                     "color": "gold"
                   },
-                  "lore": ["船長の亡霊が落とした鍵", "ほんのり海の香りがする"]
+                  "lore": [
+                    "ウィザーが落とした星の欠片",
+                    "主が死んでも尚光り続けている"
+                  ]
                 },
                 "money": {
-                  "price": 100
+                  "price": 3000
                 },
-                "loot_table": "dun:item/ominous_trial_key"
+                "loot_table": "dun:item/prismarine_shard"
               }
             }
           ]
