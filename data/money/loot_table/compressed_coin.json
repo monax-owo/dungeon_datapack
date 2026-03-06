@@ -5,34 +5,37 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "name": "minecraft:music_disc_11",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_name": {
-                  "text": "通貨",
-                  "color": "yellow",
+                  "text": "コイン",
                   "italic": false
                 },
                 "minecraft:item_name": "",
-                "minecraft:rarity": "common",
+                "minecraft:item_model": "firework_star",
+                "enchantment_glint_override": true,
+                "minecraft:rarity": "epic",
                 "minecraft:lore": [
                   {
-                    "text": "この世界では宝石が通貨として使われているらしい",
+                    "text": "ガチャを10回回せるコイン",
                     "italic": false,
                     "color": "white"
                   }
-                ]
+                ],
+                "!minecraft:jukebox_playable": {}
               }
             },
             {
               "function": "minecraft:set_custom_data",
               "tag": {
                 "money": {
-                  "price": 100
+                  "price": 5000,
+                  "coin": 10
                 },
-                "loot_table": "money:money"
+                "loot_table": "money:compressed_coin"
               }
             }
           ]
