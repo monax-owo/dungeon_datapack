@@ -16,3 +16,4 @@ scoreboard players add @a money 0
 
 scoreboard objectives add money.calc dummy
 scoreboard players set #many money.calc 1000
+scoreboard players set #100 money.calc 100
