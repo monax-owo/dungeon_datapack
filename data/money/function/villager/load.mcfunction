@@ -14,8 +14,16 @@ data modify storage money: _villager.potion.loot_tables set value [\
   {sell:{loot_table: "dun:gen/items/potion_turtle_master"}}\
 ]
 
+data modify storage money: _villager.coin.loot_tables set value [\
+  {buy:{loot_table:"money:money",count:5},sell:{loot_table:"money:coin"}},\
+  {buy:{loot_table:"money:money",count:50},sell:{loot_table:"money:compressed_coin"}},\
+]
+
 function money:villager/call {data:"storage money: _villager.potion.loot_tables",output:"storage money: villager.potion.recipes"}
-function util:for {command:"function money:villager/merge",max:16}
+function money:villager/call {data:"storage money: _villager.coin.loot_tables",output:"storage money: villager.coin.recipes"}
+
+function util:for_array_fn {function:"money:villager/merge_potion",data:"storage money: villager.potion.recipes",for_id:0,start_index:0}
+function util:for_array_fn {function:"money:villager/merge_coin",data:"storage money: villager.coin.recipes",for_id:0,start_index:0}
 
 # clear
 data remove entity @n[tag=money.villager.manager] equipment.mainhand
