@@ -1,7 +1,8 @@
 # 
 
 summon armor_stand ^ ^2 ^2 {Tags:["flame"],Invisible: true,attributes:[{id: "gravity",base:100000}],Invulnerable:true}
-execute as @e[type=!#dun:ignore_damage] at @s if entity @n[type=armor_stand,tag=flame,distance=..4] run damage @s 100 on_fire by @s
+execute as @e[type=!#dun:ignore_damage] at @s if entity @n[type=armor_stand,tag=flame,distance=..4] run damage @s 50
+execute as @e[type=!#dun:ignore_damage] at @s if entity @n[type=armor_stand,tag=flame,distance=..4] run damage @s 10 on_fire by @s
 
 playsound item.mace.smash_ground master @a ^ ^1 ^1 2 1
 playsound entity.iron_golem.damage master @a ^ ^1 ^1 2 1
