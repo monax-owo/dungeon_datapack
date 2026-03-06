@@ -2,7 +2,7 @@
 
 execute if score @s money.calc matches 0 unless data entity @s interaction run return 0
 execute if score @s money.calc matches 0 on target unless items entity @s weapon.mainhand *[custom_data~{money:{}}] run return 0
-execute if score @s money.calc matches 0 run function money:gacha/roll
+execute if score @s money.calc matches 0 unless function money:gacha/roll run return fail
 execute if score @s money.calc matches 0 run data modify entity @s data.interaction set from entity @s interaction
 
 # TODO: 一瞬止まる時がある
