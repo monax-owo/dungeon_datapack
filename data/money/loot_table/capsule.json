@@ -10,6 +10,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:custom_name": {
+                  "text": "カプセル",
+                  "italic": false
+                },
                 "minecraft:item_name": "",
                 "minecraft:item_model": "heart_of_the_sea",
                 "minecraft:rarity": "common",
@@ -36,13 +40,6 @@
                   "mode": "give"
                 },
                 "loot_table": "money:capsule"
-              }
-            },
-            {
-              "function": "set_name",
-              "name": {
-                "text": "カプセル",
-                "italic": false
               }
             },
             {
