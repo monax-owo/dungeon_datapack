@@ -1,14 +1,11 @@
 # {command, data, index, for_id}
 
 $execute unless data $(data)[$(index)] run return 0
-$say $(index)
 
 $data modify storage util: temp set from $(data)[$(index)]
 $tellraw @a[tag=debug] ["$(index)",{storage:"util:",nbt:"temp"}]
 
-execute if data storage util: args[-1].value{} if data storage util: temp{} run say if
 execute if data storage util: args[-1].value{} if data storage util: temp{} run data modify storage util: args[-1].value merge from storage util: temp
-execute unless data storage util: args[-1].value{} unless data storage util: temp{} run say un
 execute unless data storage util: args[-1].value{} unless data storage util: temp{} run data modify storage util: args[-1].value set from storage util: temp
 
 data remove storage util: temp.command
