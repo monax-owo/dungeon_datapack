@@ -59,7 +59,7 @@ export async function gen_item_loot_tables() {
         type: "loot_table",
         value: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${v.file_name}`,
         weight: v.weight,
-        quality: 1,
+        quality: quality(v.tier),
       });
 
       if (v.rare_weight && 1 <= v.rare_weight) {
@@ -67,7 +67,7 @@ export async function gen_item_loot_tables() {
           type: "loot_table",
           value: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${v.file_name}`,
           weight: v.rare_weight,
-          quality: 1,
+          quality: quality(v.tier),
         });
       }
     }
@@ -203,7 +203,7 @@ export async function gen_equipment_loot_tables() {
         type: "loot_table",
         value: `${NAMESPACE}:${LOOT_TABLE_PATH}/equipments/${v.file_name}`,
         weight: v.weight,
-        quality: 1,
+        quality: quality(v.tier),
       });
     }
 
@@ -274,4 +274,10 @@ function merge_functions(data: LootTable<ItemEntry>) {
   console.log(JSON.stringify(map.values().toArray()));
 
   return out;
+}
+
+function quality(n: number): number {
+  const table: number[] = [0, 0, 0, 1, 2];
+  if (n > table.length) throw Error("n: " + n);
+  return table[n - 1];
 }

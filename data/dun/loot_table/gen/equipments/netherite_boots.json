@@ -53,8 +53,8 @@
                   "slot": "feet"
                 },
                 {
-                  "attribute": "movement_speed",
-                  "amount": 0.1,
+                  "attribute": "step_height",
+                  "amount": 2,
                   "operation": "add_value",
                   "id": "minecraft:armor.boots",
                   "slot": "feet"
