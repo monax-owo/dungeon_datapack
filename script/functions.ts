@@ -277,7 +277,7 @@ function merge_functions(data: LootTable<ItemEntry>) {
 }
 
 function quality(n: number): number {
-  const table: number[] = [0, 0, 0, 1, 2];
+  const table: number[] = [0, 0, 0, 1, 2, 2, 2, 2, 2];
   if (n > table.length) throw Error("n: " + n);
   return table[n - 1];
 }
