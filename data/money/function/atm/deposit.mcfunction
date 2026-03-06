@@ -20,6 +20,6 @@ data remove storage money: temp
 
 # 
 
-tellraw @s {text:"+",color:"green",extra:[{score:{name:"#value",objective:"money.calc"}}]}
+tellraw @s {text:"[残高] ",color:"green",extra:["+",{score:{name:"#value",objective:"money.calc"}}]}
 execute if score #value money.calc >= #many money.calc run playsound entity.player.levelup master @s ~ ~ ~ 0.5 .8
 execute if score #value money.calc < #many money.calc run playsound entity.experience_orb.pickup master @s ~ ~ ~ 0.5 .8
