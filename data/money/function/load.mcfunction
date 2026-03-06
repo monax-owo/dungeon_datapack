@@ -1,5 +1,6 @@
 # 
 
+execute unless score #flag.money.atm flag.flag = #flag.money.atm flag.flag run scoreboard players set #flag.money.atm flag.flag 1
 execute unless score #flag.money.death flag.flag = #flag.money.death flag.flag run scoreboard players set #flag.money.death flag.flag 1
 execute unless score #flag.money.gacha flag.flag = #flag.money.gacha flag.flag run scoreboard players set #flag.money.gacha flag.flag 1
 execute unless score #flag.money.seller flag.flag = #flag.money.seller flag.flag run scoreboard players set #flag.money.seller flag.flag 1
