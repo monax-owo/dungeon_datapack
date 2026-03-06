@@ -30,7 +30,8 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "money": {
-                  "price": 100
+                  "price": 100,
+                  "atm": true
                 },
                 "loot_table": "money:money"
               }

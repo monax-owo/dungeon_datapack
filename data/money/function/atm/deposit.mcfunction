@@ -2,7 +2,7 @@
 
 execute unless score #count money.calc = #count money.calc run scoreboard players set #count money.calc 1
 
-execute unless items entity @s weapon.mainhand *[custom_data~{money:{coin:true}}] run return fail
+execute unless items entity @s weapon.mainhand *[custom_data~{money:{atm:true}}] run return fail
 execute store result score #item_count money.calc run data get entity @s SelectedItem.count
 
 execute if score #count money.calc > #item_count money.calc run scoreboard players operation #count money.calc = #item_count money.calc
