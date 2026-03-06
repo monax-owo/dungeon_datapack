@@ -1,5 +1,6 @@
 # 
 
+execute unless data entity @s SelectedItem.components.minecraft:custom_data.usable run advancement revoke @s only usable:consume
 execute unless data entity @s SelectedItem.components.minecraft:custom_data.usable run return 0
 
 data modify storage usable: args set from entity @s SelectedItem.components.minecraft:custom_data.usable
