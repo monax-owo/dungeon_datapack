@@ -10,3 +10,5 @@ execute if score #value money.calc < #many money.calc run playsound entity.exper
 
 # clear
 scoreboard players reset #value money.calc
+scoreboard players reset #count money.calc
+scoreboard players reset #price money.calc
