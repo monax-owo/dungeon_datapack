@@ -1,8 +1,8 @@
 # 
 
 execute if score @s money.calc matches 0 unless data entity @s interaction run return 0
-execute if score @s money.calc matches 0 on target unless items entity @s weapon.mainhand *[custom_data~{money:{coin:true}}] run return 0
-execute if score @s money.calc matches 0 on target run function money:gacha/roll
+execute if score @s money.calc matches 0 on target unless items entity @s weapon.mainhand *[custom_data~{money:{}}] run return 0
+execute if score @s money.calc matches 0 run function money:gacha/roll
 execute if score @s money.calc matches 0 run data modify entity @s data.interaction set from entity @s interaction
 
 # TODO: 一瞬止まる時がある
@@ -21,8 +21,9 @@ execute if score @s money.calc matches ..40 run return 0
 scoreboard players reset @s money.calc
 
 data modify entity @s interaction set from entity @s data.interaction
-execute on target run function money:gacha/pop
+execute on target run function money:gacha/pop with storage money: temp
 
 # clear
 data remove entity @s interaction
 scoreboard players set @s money.calc 0
+data remove storage money: temp

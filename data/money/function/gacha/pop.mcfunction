@@ -1,3 +1,3 @@
-# 
+# {loot_table}
 
-loot give @s loot money:capsule
+$loot give @s loot $(loot_table)
