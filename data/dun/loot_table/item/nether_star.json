@@ -35,7 +35,7 @@
                 "money": {
                   "price": 3000
                 },
-                "loot_table": "dun:item/prismarine_shard"
+                "loot_table": "dun:item/nether_star"
               }
             }
           ]
