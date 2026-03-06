@@ -22,9 +22,6 @@
                   "sound": "intentionally_empty",
                   "has_consume_particles": false
                 },
-                "use_cooldown": {
-                  "seconds": 3
-                },
                 "!jukebox_playable": {},
                 "minecraft:unbreakable": {}
               }
