@@ -1,6 +1,5 @@
 # {value, index, data: data, loot_table: string,output: data}
-
-$tellraw @a[tag=debug] ["$(data) $(index) $(output)"]
+# $tellraw @a[tag=debug] ["$(data) $(index) $(output)"]
 
 $data modify $(output) append value {buy:{},sell:{}}
 

@@ -8,7 +8,7 @@ $data modify storage util: args[-1] merge from $(data)[$(index)]
 data modify storage util: args[-1] merge from storage util: arg
 $data modify storage util: args[-1].value set from $(data)[$(index)]
 
-tellraw @a[tag=debug] [{storage:"util:",nbt:"args[-1]"}]
+# tellraw @a[tag=debug] [{storage:"util:",nbt:"args[-1]"}]
 
 $$(command)
 
