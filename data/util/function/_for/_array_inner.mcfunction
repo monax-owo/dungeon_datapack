@@ -2,7 +2,7 @@
 
 $execute unless data $(data)[$(index)] run return 0
 
-tellraw @a[tag=debug] ["----------------"]
+# tellraw @a[tag=debug] ["----------------"]
 
 $data modify storage util: args[-1] merge from $(data)[$(index)]
 data modify storage util: args[-1] merge from storage util: arg

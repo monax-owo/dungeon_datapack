@@ -1,5 +1,6 @@
 # {command, data, for_id, start_index: int}
 
+# $execute unless data $(data)[$(start_index)] run say none:$(data)[$(start_index)]
 $execute unless data $(data)[$(start_index)] run return 0
 
 # init

@@ -9,4 +9,5 @@ execute if items entity @s weapon.mainhand *[custom_data~{looting:{tier:4b}}] ru
 execute if items entity @s weapon.mainhand *[custom_data~{looting:{tier:5b}}] run item modify entity @s weapon.mainhand looting:armor_stand/5
 execute if items entity @s weapon.mainhand *[custom_data~{looting:{tier:9b}}] run item modify entity @s weapon.mainhand looting:armor_stand/9
 
-execute if data entity @s equipment.mainhand.components.minecraft:custom_data.looting.lore run function util:for_array_fn {function:"looting:armor_stand/set_lore",data:"entity @s equipment.mainhand.components.minecraft:custom_data.looting.lore",for_id:0,start_index:0}
+execute if data entity @s equipment.mainhand.components.minecraft:custom_data.looting.lore run function util:for_array_fn {function:"looting:armor_stand/set_lore",data:"entity @s equipment.mainhand.components.minecraft:custom_data.looting.lore",for_id:1,start_index:0}
+
