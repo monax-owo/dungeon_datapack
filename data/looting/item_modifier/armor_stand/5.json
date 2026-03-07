@@ -1,0 +1,18 @@
+{
+  "function": "minecraft:set_name",
+  "entity": "this",
+  "name": {
+    "text": " ",
+    "color": "gold",
+    "italic": false,
+    "extra": [
+      { "text": "[★★★★★]" },
+      " ",
+      {
+        "entity": "@s",
+        "nbt": "equipment.mainhand.components.minecraft:custom_data.looting.name",
+        "interpret": true
+      }
+    ]
+  }
+}
