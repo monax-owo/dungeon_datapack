@@ -26,17 +26,17 @@
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/echo_sword",
-          "weight": 2
+          "weight": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/flame_axe",
-          "weight": 2
+          "weight": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/kusodekadonki",
-          "weight": 2
+          "weight": 1
         },
         {
           "type": "loot_table",
@@ -51,7 +51,7 @@
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/diamond_chestplate",
-          "weight": 10
+          "weight": 15
         },
         {
           "type": "loot_table",
@@ -71,7 +71,7 @@
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/healing_staff",
-          "weight": 8
+          "weight": 10
         },
         {
           "type": "loot_table",
