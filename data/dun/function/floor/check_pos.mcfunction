@@ -22,11 +22,10 @@ execute positioned -8 2 90 as @a[distance=..4] run scoreboard players operation 
 # タイガ出口
 execute as @a at @s if biome ~ ~ ~ snowy_taiga run scoreboard players operation @s dun.floor = #taiga dun.floor
 
-# TODO:
-# 凍った海入口
+# 凍った海
 execute as @a at @s if biome ~ ~ ~ frozen_ocean run scoreboard players operation @s dun.floor = #frozen_ocean dun.floor
 
-# 凍った海出口
+# 海底神殿入口
 execute positioned -155 -14 144 as @a[distance=..5] run scoreboard players operation @s dun.floor = #monument dun.floor
 
 # 海底神殿出口
