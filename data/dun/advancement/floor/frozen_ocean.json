@@ -1,5 +1,5 @@
 {
-  "parent": "dun:floor/5_taiga",
+  "parent": "dun:floor/taiga",
   "display": {
     "description": "凍った海をクリアする",
     "icon": {

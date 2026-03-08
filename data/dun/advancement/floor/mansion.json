@@ -1,5 +1,5 @@
 {
-  "parent": "dun:floor/3_jungle",
+  "parent": "dun:floor/jungle",
   "display": {
     "description": "森の洋館をクリアする",
     "icon": {

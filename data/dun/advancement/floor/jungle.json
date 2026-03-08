@@ -1,5 +1,5 @@
 {
-  "parent": "dun:floor/2_mineshaft",
+  "parent": "dun:floor/mineshaft",
   "display": {
     "description": "ジャングルをクリアする",
     "icon": {

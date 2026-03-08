@@ -1,5 +1,5 @@
 {
-  "parent": "dun:floor/6_frozen_ocean",
+  "parent": "dun:floor/frozen_ocean",
   "display": {
     "description": "海洋神殿をクリアする",
     "icon": {

@@ -1,5 +1,5 @@
 {
-  "parent": "dun:floor/8_desert",
+  "parent": "dun:floor/desert",
   "display": {
     "description": "ネザーをクリアする",
     "icon": {

@@ -1,5 +1,5 @@
 {
-  "parent": "dun:floor/9_nether",
+  "parent": "dun:floor/nether",
   "display": {
     "description": "エンドをクリアする",
     "icon": {

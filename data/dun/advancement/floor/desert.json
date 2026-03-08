@@ -1,5 +1,5 @@
 {
-  "parent": "dun:floor/7_monument",
+  "parent": "dun:floor/monument",
   "display": {
     "description": "砂漠をクリアする",
     "icon": {
