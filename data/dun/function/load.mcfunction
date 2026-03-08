@@ -24,3 +24,4 @@ scoreboard objectives add dun.calc dummy
 
 function dun:bossbar/load
 function dun:chest/load
+function dun:floor/load

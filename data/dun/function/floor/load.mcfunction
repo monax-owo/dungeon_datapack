@@ -1,5 +1,7 @@
 # 
 
+execute unless score #flag.floor flag.flag = #flag.floor flag.flag run scoreboard players set #flag.floor flag.flag 1
+
 scoreboard objectives add dun.floor dummy
 scoreboard players add @a dun.floor 0
 
@@ -14,3 +16,6 @@ scoreboard players set #monument dun.floor 8
 scoreboard players set #desert dun.floor 9
 scoreboard players set #nether dun.floor 10
 scoreboard players set #end dun.floor 11
+scoreboard players set #ending dun.floor 12
+
+execute if score #flag.floor flag.flag matches 1 run function dun:floor/check_floor
