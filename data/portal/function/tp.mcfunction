@@ -9,8 +9,8 @@ execute unless data entity @s data.portal.rotation run data modify entity @s dat
 execute unless data entity @s data.portal.command run data modify entity @s data.portal.command set value "return 1"
 data modify storage portal: _temp set from entity @s data.portal
 
-execute store result score #value flag.flag run function portal:predicate with entity @s data.portal
-execute if score #value flag.flag matches 0 run return -3
+$execute store result storage portal: _temp.result int 1 as @p[distance=..$(distance)] run $(command)
+execute if data storage portal: _temp{result:0} run return -3
 
 $execute as @p[distance=..$(distance)] rotated as @s positioned as @s run function portal:_tp with storage portal: _temp
 
