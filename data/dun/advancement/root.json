@@ -11,5 +11,8 @@
     "": {
       "trigger": "location"
     }
+  },
+  "rewards": {
+    "function": "dun:join"
   }
 }

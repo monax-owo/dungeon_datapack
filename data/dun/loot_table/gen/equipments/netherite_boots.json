@@ -15,8 +15,7 @@
                   "italic": false
                 },
                 "minecraft:item_name": "",
-                "minecraft:rarity": "common",
-                "minecraft:unbreakable": {}
+                "minecraft:rarity": "common"
               }
             },
             {
@@ -53,8 +52,15 @@
                   "slot": "feet"
                 },
                 {
+                  "attribute": "movement_speed",
+                  "amount": 0.1,
+                  "operation": "add_value",
+                  "id": "minecraft:armor.boots",
+                  "slot": "feet"
+                },
+                {
                   "attribute": "step_height",
-                  "amount": 2,
+                  "amount": 1,
                   "operation": "add_value",
                   "id": "minecraft:armor.boots",
                   "slot": "feet"

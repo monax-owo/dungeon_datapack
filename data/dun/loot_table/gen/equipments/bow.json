@@ -22,7 +22,6 @@
                   "sound": "intentionally_empty",
                   "has_consume_particles": false
                 },
-                "!jukebox_playable": {},
                 "minecraft:unbreakable": {}
               }
             },
@@ -39,11 +38,7 @@
                 "money": {
                   "price": 100
                 },
-                "loot_table": "dun:gen/equipments/bow",
-                "usable": {
-                  "loot_table": "dun:gen/equipments/bow",
-                  "command": "function dun:item/arrow"
-                }
+                "loot_table": "dun:gen/equipments/bow"
               }
             },
             {
