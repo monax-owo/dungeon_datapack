@@ -8,3 +8,4 @@ execute as @a at @s if biome ~ ~ ~ frozen_ocean run scoreboard players operation
 execute positioned -155 -14 144 as @a[distance=..5] run scoreboard players operation @s dun.floor = #monument dun.floor
 execute positioned -220 -15 149 as @a[distance=..5] run scoreboard players operation @s dun.floor = #desert dun.floor
 # TODO: ポータル遷移を検知する
+#       終点だけでなく始点も検知すれば良さそう
