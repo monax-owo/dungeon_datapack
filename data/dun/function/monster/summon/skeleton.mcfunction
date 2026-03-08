@@ -1,6 +1,6 @@
 # 
 
-summon skeleton ~ ~ ~ {Tags:["dun","summon"]}
+summon skeleton ~ ~ ~ {Tags:["dun","summon"],DeathLootTable:"dun:item/zako"}
 
 function dun:monster/apply_equipments
 

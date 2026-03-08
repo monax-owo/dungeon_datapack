@@ -1,6 +1,6 @@
 # 
 
-summon slime ~ ~ ~ {Tags:["dun","summon"]}
+summon slime ~ ~ ~ {Tags:["dun","summon"],DeathLootTable:"dun:item/zako"}
 
 execute store result entity @n[tag=summon] Size int 1 run random value 0..3
 

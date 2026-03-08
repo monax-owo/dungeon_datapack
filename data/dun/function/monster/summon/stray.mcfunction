@@ -1,6 +1,6 @@
 # 
 
-summon stray ~ ~ ~ {Tags:["dun","summon"]}
+summon stray ~ ~ ~ {Tags:["dun","summon"],DeathLootTable:"dun:item/zako"}
 
 function dun:monster/apply_equipments
 

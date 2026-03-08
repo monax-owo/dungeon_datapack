@@ -1,6 +1,6 @@
 # 
 
-summon husk ~ ~ ~ {Tags:["dun","summon"]}
+summon husk ~ ~ ~ {Tags:["dun","summon"],DeathLootTable:"dun:item/zako"}
 
 function dun:monster/apply_equipments
 

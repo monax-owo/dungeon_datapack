@@ -1,6 +1,6 @@
 # 
 
-summon vindicator ~ ~ ~ {Tags:["dun","summon"]}
+summon vindicator ~ ~ ~ {Tags:["dun","summon"],DeathLootTable:"dun:item/zakohito"}
 
 function dun:monster/_clear_drop_chance
 

@@ -1,6 +1,6 @@
 # 
 
-summon spider ~ ~ ~ {Tags:["dun","summon"]}
+summon spider ~ ~ ~ {Tags:["dun","summon"],DeathLootTable:"dun:item/zako"}
 
 # TODO: Passenger
 

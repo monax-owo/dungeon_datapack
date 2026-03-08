@@ -1,6 +1,6 @@
 # 
 
-summon drowned ~ ~ ~ {Tags:["dun","summon"]}
+summon drowned ~ ~ ~ {Tags:["dun","summon"],DeathLootTable:"dun:item/zako"}
 
 function dun:monster/apply_equipments
 

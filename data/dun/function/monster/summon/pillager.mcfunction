@@ -1,6 +1,6 @@
 # 
 
-summon pillager ~ ~ ~ {Tags:["dun","summon"]}
+summon pillager ~ ~ ~ {Tags:["dun","summon"],DeathLootTable:"dun:item/zakohito"}
 
 data modify entity @n[tag=summon] equipment merge value {mainhand:{id:"crossbow"},offhand:{id:"tipped_arrow",components:{item_model:"air"}}}
 

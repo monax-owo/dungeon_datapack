@@ -1,6 +1,6 @@
 # 
 
-summon evoker ~ ~ ~ {Tags:["dun","summon"]}
+summon evoker ~ ~ ~ {Tags:["dun","summon"],DeathLootTable:"dun:item/zakohito"}
 
 function dun:monster/_clear_drop_chance
 

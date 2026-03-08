@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
+                },
+                "minecraft:item_name": "",
+                "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 1,
+                  "name": {
+                    "text": "モンスターの残骸",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "モンスター討伐の証",
+                    "食えないこともないが、足元に生えてる雑草のほうが美味しい"
+                  ]
+                },
+                "money": {
+                  "price": 5
+                },
+                "loot_table": "dun:item/zako"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

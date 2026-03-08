@@ -1,6 +1,6 @@
 # 
 
-summon bogged ~ ~ ~ {Tags:["dun","summon"]}
+summon bogged ~ ~ ~ {Tags:["dun","summon"],DeathLootTable:"dun:item/zako"}
 
 function dun:monster/apply_equipments
 
