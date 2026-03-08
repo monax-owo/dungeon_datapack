@@ -1,22 +1,29 @@
 # 
 
-# TODO: 平原出口
-execute positioned 112 4 -46 as @a[distance=..4] run scoreboard players operation @s dun.floor = #mineshaft dun.floor
-
 # 廃坑入口
 execute positioned 92 2 -55 as @a[distance=..4] run scoreboard players operation @s dun.floor = #mineshaft dun.floor
 # 出口
-execute positioned 25 -8 -74 as @a[distance=..4] run scoreboard players operation @s dun.floor = #mineshaft dun.floor
+execute positioned 28 -8 -76 as @a[distance=..4] run scoreboard players operation @s dun.floor = #mineshaft dun.floor
 
 # ジャングル入口
-# TODO:
+execute positioned 21 -8 -74 as @a[distance=..4] run scoreboard players operation @s dun.floor = #jungle dun.floor
 # ジャングル出口
-execute positioned -10 -8 -4 as @a[distance=..4] run scoreboard players operation @s dun.floor = #mansion dun.floor
+execute positioned -10 -8 -4 as @a[distance=..4] run scoreboard players operation @s dun.floor = #jungle dun.floor
+
+# 森の洋館入口
+execute positioned -10 -9 14 as @a[distance=..4] run scoreboard players operation @s dun.floor = #mansion dun.floor
 
 # 森の洋館出口
+execute positioned -8 2 82 as @a[distance=..4] run scoreboard players operation @s dun.floor = #mansion dun.floor
+
+# タイガ入口
 execute positioned -8 2 90 as @a[distance=..4] run scoreboard players operation @s dun.floor = #taiga dun.floor
 
 # タイガ出口
+execute as @a at @s if biome ~ ~ ~ snowy_taiga run scoreboard players operation @s dun.floor = #taiga dun.floor
+
+# TODO:
+# 凍った海入口
 execute as @a at @s if biome ~ ~ ~ frozen_ocean run scoreboard players operation @s dun.floor = #frozen_ocean dun.floor
 
 # 凍った海出口
