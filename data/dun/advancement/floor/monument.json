@@ -1,11 +1,11 @@
 {
   "parent": "dun:floor/frozen_ocean",
   "display": {
-    "description": "海洋神殿をクリアする",
+    "description": "海底神殿をクリアする",
     "icon": {
       "id": "packed_ice"
     },
-    "title": "海洋神殿"
+    "title": "海底神殿"
   },
   "criteria": {
     "": {

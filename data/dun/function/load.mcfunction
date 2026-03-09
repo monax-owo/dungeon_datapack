@@ -14,7 +14,7 @@ data modify storage dun: groups set value [\
 {id:"mansion",name:"森の洋館",ratio:1.7},\
 {id:"taiga",name:"タイガ",ratio:2},\
 {id:"frozen_ocean",name:"凍った海",ratio:2.2},\
-{id:"monument",name:"海洋神殿",ratio:2.4},\
+{id:"monument",name:"海底神殿",ratio:2.4},\
 {id:"desert",name:"砂漠",ratio:2.6},\
 {id:"nether",name:"ネザー",ratio:2.8},\
 {id:"end",name:"エンド",ratio:3},\
