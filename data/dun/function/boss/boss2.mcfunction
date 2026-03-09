@@ -1,5 +1,5 @@
 # 
 
-summon minecraft:elder_guardian ~ ~ ~ {DeathLootTable:"dun:item/prismarine_shard",Rotation:[-90f,0f],CustomName:"エル子",Health:400,Tags:["dun","boss2","boss.summoning"],attributes:[{base:1.0d,id:"minecraft:scale"},{base:0.4d,id:"minecraft:movement_speed"},{base:400d,id:"minecraft:max_health"},{base:10.0d,id:"minecraft:attack_damage"}]}
+summon minecraft:elder_guardian ~ ~ ~ {DeathLootTable:"dun:item/prismarine_shard",Rotation:[-90f,0f],CustomName:"エルダーガーディアン",Health:400,Tags:["dun","boss2","boss.summoning"],attributes:[{base:1.0d,id:"minecraft:scale"},{base:0.4d,id:"minecraft:movement_speed"},{base:400d,id:"minecraft:max_health"},{base:10.0d,id:"minecraft:attack_damage"}]}
 
 function dun:bossbar/apply_any
