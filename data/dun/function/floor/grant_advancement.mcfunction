@@ -9,4 +9,4 @@ execute if score @s dun.floor = #monument dun.floor run advancement grant @s onl
 execute if score @s dun.floor = #desert dun.floor run advancement grant @s only dun:floor/monument
 execute if score @s dun.floor = #nether dun.floor run advancement grant @s only dun:floor/desert
 execute if score @s dun.floor = #end dun.floor run advancement grant @s only dun:floor/nether
-execute if score @s dun.floor = #ending dun.floor run advancement grant @s only dun:floor/end
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{nbt:{seenCredits:1b}}} run advancement grant @s only dun:floor/end

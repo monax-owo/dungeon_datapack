@@ -33,11 +33,13 @@ execute positioned -220 -10 134 if entity @s[distance=..4] run scoreboard player
 # 砂漠出口
 execute positioned -164 -23 -64 if entity @s[distance=..4] run scoreboard players operation @s dun.floor = #desert dun.floor
 
-# ネザー
+# ネザー入口
 execute positioned -164 -24 -50 if entity @s[distance=..4] run scoreboard players operation @s dun.floor = #nether dun.floor
-
+# ネザー出口
 execute if dimension minecraft:the_nether run scoreboard players operation @s dun.floor = #nether dun.floor
 
 # エンド
 execute if dimension minecraft:the_end run scoreboard players operation @s dun.floor = #end dun.floor
 
+# 他
+execute if dimension minecraft:overworld if score @s dun.floor matches 10..11 run scoreboard players set @s dun.floor 0
