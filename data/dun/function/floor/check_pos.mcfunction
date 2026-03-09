@@ -43,3 +43,5 @@ execute if dimension minecraft:the_end run scoreboard players operation @s dun.f
 
 # 他
 execute if dimension minecraft:overworld if score @s dun.floor matches 10..11 run scoreboard players set @s dun.floor 0
+
+execute if entity @s[x=133,y=5,z=-59,dx=31,dy=7,dz=12] run scoreboard players set @s dun.floor 0
