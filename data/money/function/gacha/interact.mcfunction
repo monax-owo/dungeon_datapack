@@ -5,7 +5,6 @@ execute if score @s money.calc matches 0 on target unless items entity @s weapon
 execute if score @s money.calc matches 0 unless function money:gacha/roll run return fail
 execute if score @s money.calc matches 0 run data modify entity @s data.interaction set from entity @s interaction
 
-# TODO: 一瞬止まる時がある
 execute if score @s money.calc matches 5 run function money:gacha/apply
 execute if score @s money.calc matches 10 run function money:gacha/apply
 execute if score @s money.calc matches 15 run function money:gacha/apply
