@@ -8,3 +8,5 @@ execute if score #value dun.rand matches 21..30 run function dun:monster/summon/
 execute if score #value dun.rand matches 31..35 run function dun:monster/summon/spider
 execute if score #value dun.rand matches 36..40 run function dun:monster/summon/breeze
 execute if score #value dun.rand matches 41..50 run function dun:monster/summon/stray
+
+scoreboard players reset #value dun.rand

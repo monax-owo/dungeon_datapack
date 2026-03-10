@@ -8,3 +8,5 @@ execute if score #value dun.rand matches 21..30 run function dun:monster/summon/
 execute if score #value dun.rand matches 31..35 run function dun:monster/summon/spider
 execute if score #value dun.rand matches 36..45 run function dun:monster/summon/pillager
 execute if score #value dun.rand matches 46..55 run function dun:monster/summon/bogged
+
+scoreboard players reset #value dun.rand

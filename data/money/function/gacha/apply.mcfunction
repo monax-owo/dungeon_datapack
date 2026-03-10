@@ -10,3 +10,4 @@ execute if score #value dun.rand matches 3 run playsound block.iron_trapdoor.clo
 execute if score #value dun.rand matches 4 run playsound block.iron_trapdoor.open master @a
 
 data remove storage money: _gacha.transformation[0]
+scoreboard players reset #value dun.rand

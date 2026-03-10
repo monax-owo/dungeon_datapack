@@ -7,3 +7,5 @@ execute if score #value dun.rand matches 11..15 run function dun:monster/summon/
 execute if score #value dun.rand matches 16..25 run function dun:monster/summon/creeper
 execute if score #value dun.rand matches 26..30 run function dun:monster/summon/spider
 execute if score #value dun.rand matches 31..50 run function dun:monster/summon/slime
+
+scoreboard players reset #value dun.rand
