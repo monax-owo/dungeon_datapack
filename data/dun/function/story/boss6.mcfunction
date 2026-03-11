@@ -11,7 +11,7 @@ execute as @a[scores={boss6_talk=730}] at @s run tellraw @s {text:"<原住民A>�
 execute as @a[scores={boss6_talk=700}] at @s run tellraw @s {text:"<原住民A>どうやらまだ魔物は沸き続けてしまっている。"}
 execute as @a[scores={boss6_talk=650}] at @s run tellraw @s {text:"<原住民A>そこでだ、俺からあんたらに相談だ。"}
 execute as @a[scores={boss6_talk=610}] at @s run tellraw @s {text:"<原住民A>あんたらここの洞穴の傭兵にならないか？"}
-execute as @a[scores={boss6_talk=570}] at @s run tellraw @s {text:"<原住民A>当然報酬は出すし今まで、通り物の売買だって続けよう。"}
+execute as @a[scores={boss6_talk=570}] at @s run tellraw @s {text:"<原住民A>当然報酬は出すし今まで通り物の売買だって続けよう。"}
 execute as @a[scores={boss6_talk=550}] at @s run tellraw @s {text:"<原住民A>ダメなのか？ちなみに理由を聞いても良いか？"}
 execute as @a[scores={boss6_talk=510}] at @s run tellraw @s {text:"<原住民A>そうか、そういえばあんたらは海賊だったな。"}
 execute as @a[scores={boss6_talk=470}] at @s run tellraw @s {text:"<原住民A>確かに海賊だとしたらこの地に留まるわけには行かないな。"}
