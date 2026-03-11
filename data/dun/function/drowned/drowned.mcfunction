@@ -1,8 +1,8 @@
 # 
 
-execute if score @s dun.drown matches 0 run effect give @s darkness 3
-execute if score @s dun.drown matches 24 run effect give @s blindness 3
-execute if score @s dun.drown matches 30 run tp @s -29 5 -196 180 0
+execute if score @s dun.drown matches 6 run effect give @s darkness 3
+execute if score @s dun.drown matches 30 run effect give @s blindness 3
+execute if score @s dun.drown matches 36 run tp @s -29 5 -196 180 0
 
 scoreboard players add @s dun.drown 1
 
