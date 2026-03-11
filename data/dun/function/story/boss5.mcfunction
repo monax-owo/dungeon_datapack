@@ -14,13 +14,13 @@ execute as @a[scores={boss5_talk=550}] at @s run tellraw @s {text:"<原住民A>�
 execute as @a[scores={boss5_talk=500}] at @s run tellraw @s {text:"<原住民A>どうやらまだ魔物は沸き続けているらしい。"}
 execute as @a[scores={boss5_talk=460}] at @s run tellraw @s {text:"<原住民A>もう一度その終焉の地に足を運んで、調査して来てくれないか？"}
 execute as @a[scores={boss5_talk=410}] at @s run tellraw @s {text:"<原住民A>もしかしたら何かわかるかもしれない。"}
-execute as @a[scores={boss5_talk=380}] at @s run tellraw @s {text:"<原住民A>それはそうと、何か聞きたいことはあるか？"}
-execute as @a[scores={boss5_talk=350}] at @s run tellraw @s {text:"<原住民A>このあたりの設備の話なら教えてやれるぞ。"}
-execute as @a[scores={boss5_talk=330}] at @s run tellraw @s ["",{text:"[ガチャの説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s gacha_talk 1001"}}]
-execute as @a[scores={boss5_talk=330}] at @s run tellraw @s ["",{text:"[ショップの説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s shop_talk 1001"}}]
-execute as @a[scores={boss5_talk=330}] at @s run tellraw @s ["",{text:"[飯屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s mesiya_talk 1001"}}]
-execute as @a[scores={boss5_talk=330}] at @s run tellraw @s ["",{text:"[道具屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s douguya_talk 1001"}}]
-execute as @a[scores={boss5_talk=330}] at @s run tellraw @s ["",{text:"[鍛冶屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s kajiya_talk 1001"}}]
+execute as @a[scores={boss5_talk=370}] at @s run tellraw @s {text:"<原住民A>それはそうと、何か聞きたいことはあるか？"}
+execute as @a[scores={boss5_talk=340}] at @s run tellraw @s {text:"<原住民A>このあたりの設備の話なら教えてやれるぞ。"}
+execute as @a[scores={boss5_talk=320}] at @s run tellraw @s ["",{text:"[ガチャの説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s gacha_talk 1001"}}]
+execute as @a[scores={boss5_talk=320}] at @s run tellraw @s ["",{text:"[ショップの説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s shop_talk 1001"}}]
+execute as @a[scores={boss5_talk=320}] at @s run tellraw @s ["",{text:"[飯屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s mesiya_talk 1001"}}]
+execute as @a[scores={boss5_talk=320}] at @s run tellraw @s ["",{text:"[道具屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s douguya_talk 1001"}}]
+execute as @a[scores={boss5_talk=320}] at @s run tellraw @s ["",{text:"[鍛冶屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s kajiya_talk 1001"}}]
 execute as @a[scores={boss5_talk=1000}] at @s run scoreboard players set @s kajiya_talk 0
 execute as @a[scores={boss5_talk=1000}] at @s run scoreboard players set @s gacha_talk 0
 execute as @a[scores={boss5_talk=1000}] at @s run scoreboard players set @s mesiya_talk 0
