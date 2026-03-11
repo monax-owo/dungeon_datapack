@@ -11,6 +11,10 @@
     "dun:item/stand/stand_main",
     "dun:story/boss1",
     "dun:story/boss2",
+    "dun:story/boss3",
+    "dun:story/boss4",
+    "dun:story/boss5",
+    "dun:story/boss6",
     "dun:drowned/tick"
   ]
 }
