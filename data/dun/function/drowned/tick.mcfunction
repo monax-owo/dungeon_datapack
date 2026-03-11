@@ -1,3 +1,3 @@
 # 
 
-execute as @a[tag=dun.drowned] run function dun:drowned/drowned
+execute as @a[tag=dun.drowned] at @s run function dun:drowned/drowned
