@@ -1,0 +1,1 @@
+execute positioned 191 13.0 -44.7 as @a[scores={click_villager=1..},distance=..3,advancements={dun:story/negotiation=true,dun:story/boss1=true,dun:story/boss2=false}] run scoreboard players set @s boss1_talk 1001
