@@ -13,18 +13,18 @@ execute as @a[scores={boss6_talk=640}] at @s run tellraw @s {text:"<原住民A>�
 execute as @a[scores={boss6_talk=600}] at @s run tellraw @s {text:"<原住民A>あんたらここの洞穴の傭兵にならないか？"}
 execute as @a[scores={boss6_talk=560}] at @s run tellraw @s {text:"<原住民A>当然報酬は出すし今まで通り物の売買だって続けよう。"}
 execute as @a[scores={boss6_talk=500}] at @s run tellraw @s {text:"<原住民A>ダメなのか？ちなみに理由を聞いても良いか？"}
-execute as @a[scores={boss6_talk=460}] at @s run tellraw @s {text:"<原住民A>そうか、そういえばあんたらは海賊だったな。"}
-execute as @a[scores={boss6_talk=420}] at @s run tellraw @s {text:"<原住民A>確かに海賊だとしたらこの地に留まるわけには行かないな。"}
-execute as @a[scores={boss6_talk=380}] at @s run tellraw @s {text:"<原住民A>わかった。用事が終わったら海に出てもらって大丈夫だ。"}
-execute as @a[scores={boss6_talk=340}] at @s run tellraw @s {text:"<原住民A>でも、たまにはこの地に顔を出してくれると助かるよ。"}
-execute as @a[scores={boss6_talk=300}] at @s run tellraw @s {text:"<原住民A>あんたらがいると商人のみんなも顔が明るくなるんでな。"}
-execute as @a[scores={boss6_talk=260}] at @s run tellraw @s {text:"<原住民A>それはそうと、何か聞きたいことはあるか？"}
-execute as @a[scores={boss6_talk=230}] at @s run tellraw @s {text:"<原住民A>このあたりの設備の話なら教えてやれるぞ。"}
-execute as @a[scores={boss6_talk=210}] at @s run tellraw @s ["",{text:"[ガチャの説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s gacha_talk 1001"}}]
-execute as @a[scores={boss6_talk=210}] at @s run tellraw @s ["",{text:"[ショップの説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s shop_talk 1001"}}]
-execute as @a[scores={boss6_talk=210}] at @s run tellraw @s ["",{text:"[飯屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s mesiya_talk 1001"}}]
-execute as @a[scores={boss6_talk=210}] at @s run tellraw @s ["",{text:"[道具屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s douguya_talk 1001"}}]
-execute as @a[scores={boss6_talk=210}] at @s run tellraw @s ["",{text:"[鍛冶屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s kajiya_talk 1001"}}]
+execute as @a[scores={boss6_talk=450}] at @s run tellraw @s {text:"<原住民A>そうか、そういえばあんたらは海賊だったな。"}
+execute as @a[scores={boss6_talk=410}] at @s run tellraw @s {text:"<原住民A>確かに海賊だとしたらこの地に留まるわけには行かないな。"}
+execute as @a[scores={boss6_talk=370}] at @s run tellraw @s {text:"<原住民A>わかった。用事が終わったら海に出てもらって大丈夫だ。"}
+execute as @a[scores={boss6_talk=330}] at @s run tellraw @s {text:"<原住民A>でも、たまにはこの地に顔を出してくれると助かるよ。"}
+execute as @a[scores={boss6_talk=290}] at @s run tellraw @s {text:"<原住民A>あんたらがいると商人のみんなも顔が明るくなるんでな。"}
+execute as @a[scores={boss6_talk=250}] at @s run tellraw @s {text:"<原住民A>それはそうと、何か聞きたいことはあるか？"}
+execute as @a[scores={boss6_talk=220}] at @s run tellraw @s {text:"<原住民A>このあたりの設備の話なら教えてやれるぞ。"}
+execute as @a[scores={boss6_talk=200}] at @s run tellraw @s ["",{text:"[ガチャの説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s gacha_talk 1001"}}]
+execute as @a[scores={boss6_talk=200}] at @s run tellraw @s ["",{text:"[ショップの説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s shop_talk 1001"}}]
+execute as @a[scores={boss6_talk=200}] at @s run tellraw @s ["",{text:"[飯屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s mesiya_talk 1001"}}]
+execute as @a[scores={boss6_talk=200}] at @s run tellraw @s ["",{text:"[道具屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s douguya_talk 1001"}}]
+execute as @a[scores={boss6_talk=200}] at @s run tellraw @s ["",{text:"[鍛冶屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s kajiya_talk 1001"}}]
 execute as @a[scores={boss6_talk=1000}] at @s run scoreboard players set @s kajiya_talk 0
 execute as @a[scores={boss6_talk=1000}] at @s run scoreboard players set @s gacha_talk 0
 execute as @a[scores={boss6_talk=1000}] at @s run scoreboard players set @s mesiya_talk 0
