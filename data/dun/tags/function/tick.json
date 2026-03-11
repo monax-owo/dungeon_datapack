@@ -9,6 +9,7 @@
     "dun:item/flame_axe/tick",
     "dun:item/healing_staff/tick",
     "dun:item/stand/stand_main",
-    "dun:story/boss1"
+    "dun:story/boss1",
+    "dun:story/boss2"
   ]
 }
