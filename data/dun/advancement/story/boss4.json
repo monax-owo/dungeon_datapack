@@ -1,0 +1,15 @@
+{
+  "parent": "dun:story/boss3",
+  "display": {
+    "description": "ウィザーを倒した事を原住民に報告しよう",
+    "icon": {
+      "id": "writable_book"
+    },
+    "title": "調査レポート:ネザー"
+  },
+  "criteria": {
+    "": {
+      "trigger": "impossible"
+    }
+  }
+}

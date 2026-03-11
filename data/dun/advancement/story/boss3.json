@@ -1,0 +1,15 @@
+{
+  "parent": "dun:story/boss2",
+  "display": {
+    "description": "古代の王を倒した事を原住民に報告しよう",
+    "icon": {
+      "id": "writable_book"
+    },
+    "title": "調査レポート:ピラミッド"
+  },
+  "criteria": {
+    "": {
+      "trigger": "impossible"
+    }
+  }
+}

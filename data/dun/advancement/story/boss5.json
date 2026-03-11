@@ -1,0 +1,15 @@
+{
+  "parent": "dun:story/boss4",
+  "display": {
+    "description": "エンダードラゴンを倒した事を原住民に報告しよう",
+    "icon": {
+      "id": "writable_book"
+    },
+    "title": "調査レポート:エンド"
+  },
+  "criteria": {
+    "": {
+      "trigger": "impossible"
+    }
+  }
+}
