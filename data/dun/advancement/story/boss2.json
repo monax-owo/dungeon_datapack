@@ -5,6 +5,7 @@
     "icon": {
       "id": "writable_book"
     },
+    "hidden": true,
     "title": "調査レポート:海底神殿"
   },
   "criteria": {
