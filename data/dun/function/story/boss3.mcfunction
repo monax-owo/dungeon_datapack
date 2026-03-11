@@ -10,7 +10,7 @@ execute as @a[scores={boss3_talk=760}] at @s run tellraw @s {text:"<原住民A>�
 execute as @a[scores={boss3_talk=720}] at @s run tellraw @s {text:"<原住民A>流石にそんなわけないか。復活でもさせないと会うことすらできないだろうしな。"}
 execute as @a[scores={boss3_talk=670}] at @s run tellraw @s {text:"<原住民A>まあとりあえずこれでこの地の調査が進んだ。ありがとう。"}
 execute as @a[scores={boss3_talk=630}] at @s run tellraw @s {text:"<原住民A>それはそうと、何か聞きたいことはあるか？"}
-execute as @a[scores={boss3_talk=600}] at @s run tellraw @s {text:"<原住民A>このロビーの設備の話なら教えてやれるぞ。"}
+execute as @a[scores={boss3_talk=600}] at @s run tellraw @s {text:"<原住民A>このあたりの設備の話なら教えてやれるぞ。"}
 execute as @a[scores={boss3_talk=580}] at @s run tellraw @s ["",{text:"[ガチャの説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s gacha_talk 1001"}}]
 execute as @a[scores={boss3_talk=580}] at @s run tellraw @s ["",{text:"[ショップの説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s shop_talk 1001"}}]
 execute as @a[scores={boss3_talk=580}] at @s run tellraw @s ["",{text:"[飯屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"scoreboard players set @s mesiya_talk 1001"}}]
