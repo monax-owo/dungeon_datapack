@@ -10,6 +10,7 @@
     "dun:item/healing_staff/tick",
     "dun:item/stand/stand_main",
     "dun:story/boss1",
-    "dun:story/boss2"
+    "dun:story/boss2",
+    "dun:drowned/tick"
   ]
 }

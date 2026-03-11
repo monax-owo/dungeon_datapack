@@ -1,4 +1,5 @@
 # 
 
-scoreboard players add @a dun.floor 0
-scoreboard players add @a money 0
+scoreboard players add @s dun.floor 0
+scoreboard players add @s dun.drown 0
+scoreboard players add @s money 0
