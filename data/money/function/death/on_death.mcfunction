@@ -8,5 +8,5 @@ scoreboard players operation @s money -= #value money.calc
 scoreboard players set @s dun.floor 0
 
 # clear
-scoreboard players add @s death_count.diff 1
+scoreboard players operation @s death_count.diff = @s death_count
 scoreboard players reset #value money.calc
