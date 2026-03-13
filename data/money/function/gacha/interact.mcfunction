@@ -3,7 +3,6 @@
 execute if score @s money.calc matches 0 unless data entity @s interaction run return 0
 execute if score @s money.calc matches 0 on target unless items entity @s weapon.mainhand *[custom_data~{money:{}}] run return 0
 execute if score @s money.calc matches 0 unless function money:gacha/roll run return fail
-execute if score @s money.calc matches 0 run data modify entity @s data.interaction set from entity @s interaction
 
 execute if score @s money.calc matches 5 run function money:gacha/apply
 execute if score @s money.calc matches 10 run function money:gacha/apply
@@ -17,7 +16,6 @@ execute if score @s money.calc matches 40 run function money:gacha/apply
 scoreboard players add @s money.calc 1
 
 execute if score @s money.calc matches ..40 run return 0
-scoreboard players reset @s money.calc
 
 data modify entity @s interaction set from entity @s data.interaction
 execute on target run function money:gacha/pop with storage money: temp
