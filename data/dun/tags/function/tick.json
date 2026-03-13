@@ -15,6 +15,7 @@
     "dun:story/boss4",
     "dun:story/boss5",
     "dun:story/boss6",
+    "dun:story/talk",
     "dun:drowned/tick"
   ]
 }
