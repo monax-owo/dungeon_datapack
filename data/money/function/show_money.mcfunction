@@ -1,3 +1,3 @@
 # 
 
-title @s actionbar {score:{name:"@s",objective:"money"}}
+title @s actionbar ["残高: ",{color:green,score:{name:"@s",objective:"money"}}]
