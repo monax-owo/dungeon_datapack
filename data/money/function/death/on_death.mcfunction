@@ -1,6 +1,6 @@
 # 
 
-tellraw @a[team=admin,tag=debug] ["dead: ",{selector:"@s"}]
+tellraw @a[tag=debug] ["dead: ",{selector:"@s"}]
 
 scoreboard players set #value money.calc 500
 scoreboard players operation @s money -= #value money.calc

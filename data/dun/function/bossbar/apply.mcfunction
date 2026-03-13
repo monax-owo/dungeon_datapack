@@ -16,7 +16,7 @@ execute unless data entity @s CustomName run data modify storage boss: _summon.n
 execute store result storage boss: _summon.health int 1 run data get entity @s Health
 
 # debug
-# tellraw @a[team=admin,tag=debug] {storage:"boss:",nbt:"_summon"}
+# tellraw @a[tag=debug] {storage:"boss:",nbt:"_summon"}
 
 execute at @s run function dun:bossbar/_add_bossbar with storage boss: _summon
 
