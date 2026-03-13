@@ -27,7 +27,8 @@
                   "name": {
                     "text": "石の斧",
                     "color": "white"
-                  }
+                  },
+                  "fakeable": true
                 },
                 "money": {
                   "price": 50

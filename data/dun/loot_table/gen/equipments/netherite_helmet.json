@@ -26,7 +26,8 @@
                   "name": {
                     "text": "ネザライトのヘルメット",
                     "color": "white"
-                  }
+                  },
+                  "fakeable": true
                 },
                 "money": {
                   "price": 1000

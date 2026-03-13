@@ -26,7 +26,8 @@
                   "name": {
                     "text": "革のチェストプレート",
                     "color": "white"
-                  }
+                  },
+                  "fakeable": true
                 },
                 "money": {
                   "price": 50

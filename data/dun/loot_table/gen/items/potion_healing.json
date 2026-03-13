@@ -27,6 +27,7 @@
                     "text": "回復薬",
                     "color": "white"
                   },
+                  "fakeable": true,
                   "lore": [
                     "飲むと即座に体力が回復する"
                   ]

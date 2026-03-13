@@ -26,7 +26,8 @@
                   "name": {
                     "text": "銅原石",
                     "color": "white"
-                  }
+                  },
+                  "fakeable": true
                 },
                 "money": {
                   "price": 20

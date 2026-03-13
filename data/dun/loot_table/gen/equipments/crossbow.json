@@ -31,7 +31,8 @@
                   "name": {
                     "text": "ちょっと良いクロスボウ",
                     "color": "white"
-                  }
+                  },
+                  "fakeable": true
                 },
                 "money": {
                   "price": 100

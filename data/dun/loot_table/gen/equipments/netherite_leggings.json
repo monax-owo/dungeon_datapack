@@ -26,7 +26,8 @@
                   "name": {
                     "text": "ネザライトのレギンス",
                     "color": "white"
-                  }
+                  },
+                  "fakeable": true
                 },
                 "money": {
                   "price": 1000

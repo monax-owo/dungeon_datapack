@@ -33,7 +33,8 @@
                   "name": {
                     "text": "しょぼい弓",
                     "color": "white"
-                  }
+                  },
+                  "fakeable": true
                 },
                 "money": {
                   "price": 100

@@ -26,7 +26,8 @@
                   "name": {
                     "text": "チェーンのブーツ",
                     "color": "white"
-                  }
+                  },
+                  "fakeable": true
                 },
                 "money": {
                   "price": 50

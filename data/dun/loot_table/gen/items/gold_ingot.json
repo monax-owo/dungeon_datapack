@@ -27,6 +27,7 @@
                     "text": "10金",
                     "color": "white"
                   },
+                  "fakeable": true,
                   "lore": [
                     "純度41.7%の金の延べ棒"
                   ]

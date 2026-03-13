@@ -27,6 +27,7 @@
                     "text": "生チョコレート",
                     "color": "white"
                   },
+                  "fakeable": true,
                   "lore": [
                     "所謂高級チョコレート",
                     "とても美味しい"

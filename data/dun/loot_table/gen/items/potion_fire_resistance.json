@@ -27,6 +27,7 @@
                     "text": "アチアチジュース",
                     "color": "white"
                   },
+                  "fakeable": true,
                   "lore": [
                     "おいしそうなジュース",
                     "飲むと火に強くなる"

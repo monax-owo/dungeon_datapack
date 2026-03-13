@@ -27,6 +27,7 @@
                     "text": "ラッキージュース",
                     "color": "white"
                   },
+                  "fakeable": true,
                   "lore": [
                     "奇妙な色のジュース",
                     "飲むと運が良くなる"

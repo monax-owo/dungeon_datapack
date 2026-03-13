@@ -27,6 +27,7 @@
                     "text": "奇妙な塊",
                     "color": "white"
                   },
+                  "fakeable": true,
                   "lore": [
                     "絶妙に嫌な感触をしている",
                     "できれば触りたくない"

@@ -27,6 +27,7 @@
                     "text": "星の欠片",
                     "color": "white"
                   },
+                  "fakeable": true,
                   "lore": [
                     "綺麗な星の欠片",
                     "その希少性からとても高く売れる"

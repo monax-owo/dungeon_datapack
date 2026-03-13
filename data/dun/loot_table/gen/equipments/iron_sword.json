@@ -36,7 +36,8 @@
                   "name": {
                     "text": "クレイモア",
                     "color": "white"
-                  }
+                  },
+                  "fakeable": true
                 },
                 "money": {
                   "price": 100

@@ -26,7 +26,8 @@
                   "name": {
                     "text": "チェーンのチェストプレート",
                     "color": "white"
-                  }
+                  },
+                  "fakeable": true
                 },
                 "money": {
                   "price": 50

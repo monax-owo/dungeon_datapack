@@ -36,7 +36,8 @@
                   "name": {
                     "text": "残響の剣",
                     "color": "#007A63"
-                  }
+                  },
+                  "fakeable": true
                 },
                 "money": {
                   "price": 1000

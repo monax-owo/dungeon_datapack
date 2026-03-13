@@ -27,6 +27,7 @@
                     "text": "羊羹",
                     "color": "white"
                   },
+                  "fakeable": true,
                   "lore": [
                     "普通の羊羹よりちょっと硬いし色が濃い"
                   ]

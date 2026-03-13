@@ -27,6 +27,7 @@
                     "text": "干上がった海洋の心",
                     "color": "white"
                   },
+                  "fakeable": true,
                   "lore": [
                     "完全に干からびている",
                     "無惨だ..."

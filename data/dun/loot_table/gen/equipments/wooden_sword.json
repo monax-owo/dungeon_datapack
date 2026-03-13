@@ -27,7 +27,8 @@
                   "name": {
                     "text": "木刀",
                     "color": "white"
-                  }
+                  },
+                  "fakeable": true
                 },
                 "money": {
                   "price": 50

@@ -26,7 +26,8 @@
                   "name": {
                     "text": "鉄の原石",
                     "color": "white"
-                  }
+                  },
+                  "fakeable": true
                 },
                 "money": {
                   "price": 60

@@ -26,7 +26,8 @@
                   "name": {
                     "text": "石炭",
                     "color": "white"
-                  }
+                  },
+                  "fakeable": true
                 },
                 "money": {
                   "price": 20

@@ -35,6 +35,7 @@
                     "text": "普通の鍵",
                     "color": "white"
                   },
+                  "fakeable": true,
                   "lore": [
                     "安っぽい鍵",
                     "一体何が開けられるのだろうか"

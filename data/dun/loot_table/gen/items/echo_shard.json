@@ -27,6 +27,7 @@
                     "text": "青く光る棒",
                     "color": "white"
                   },
+                  "fakeable": true,
                   "lore": [
                     "黒い棒",
                     "青く光る粉のようなものが付いている"

@@ -36,7 +36,8 @@
                   "name": {
                     "text": "バトルアックス",
                     "color": "white"
-                  }
+                  },
+                  "fakeable": true
                 },
                 "money": {
                   "price": 100

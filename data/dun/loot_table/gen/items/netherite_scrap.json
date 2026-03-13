@@ -27,6 +27,7 @@
                     "text": "義理チョコ",
                     "color": "white"
                   },
+                  "fakeable": true,
                   "lore": [
                     "あくまでも\"義理\"",
                     "少し甘酸っぱい"

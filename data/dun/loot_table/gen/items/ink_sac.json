@@ -27,6 +27,7 @@
                     "text": "墨袋",
                     "color": "white"
                   },
+                  "fakeable": true,
                   "lore": [
                     "実はおいしいだけではなく体に良い"
                   ]
