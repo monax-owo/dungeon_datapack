@@ -18,4 +18,19 @@ scoreboard players set #nether dun.floor 10
 scoreboard players set #end dun.floor 11
 scoreboard players set #ending dun.floor 12
 
+data modify storage dun: floor.reset set value [\
+{id:"plain",reset:true},\
+{id:"mineshaft",reset:true},\
+{id:"jungle",reset:true},\
+{id:"ship",reset:true},\
+{id:"mansion",reset:true},\
+{id:"taiga",reset:true},\
+{id:"frozen_ocean",reset:true},\
+{id:"monument",reset:true},\
+{id:"desert",reset:true},\
+{id:"nether",reset:true},\
+{id:"end",reset:true},\
+]
+
 execute if score #flag.floor flag.flag matches 1 run function dun:floor/check_floor
+execute if score #flag.floor flag.flag matches 1 run function dun:floor/reset_floor
