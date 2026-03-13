@@ -9,6 +9,7 @@ execute if score #rand util matches 1..9 run loot replace entity @s weapon.mainh
 execute if score #rand util matches 10 run loot replace entity @s weapon.mainhand loot dun:gen/pickup/rare
 
 item modify entity @s weapon.mainhand {function:"set_count",count:{type:"storage",storage:"looting:",path:"fake.count"}}
+item modify entity @s weapon.mainhand {function:"set_custom_data",tag:{looting:{fakeable:false}}}
 
 scoreboard players set #tier util 1
 execute store result score #tier util run data get entity @s SelectedItem.components.minecraft:custom_data.looting.tier
