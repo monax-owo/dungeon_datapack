@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_11",
+          "name": "minecraft:music_disc_wait",
           "functions": [
             {
               "function": "minecraft:set_components",

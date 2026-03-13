@@ -50,6 +50,13 @@
                   "operation": "add_value",
                   "id": "minecraft:armor.leggings",
                   "slot": "legs"
+                },
+                {
+                  "attribute": "attack_damage",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "id": "minecraft:armor.leggings",
+                  "slot": "legs"
                 }
               ]
             }
