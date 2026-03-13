@@ -31,62 +31,62 @@
         {
           "type": "loot_table",
           "value": "dun:gen/items/diamond",
-          "weight": 10
+          "weight": 8
         },
         {
           "type": "loot_table",
           "value": "dun:gen/items/echo_shard",
-          "weight": 10
+          "weight": 8
         },
         {
           "type": "loot_table",
           "value": "dun:gen/items/emerald",
-          "weight": 10
+          "weight": 8
         },
         {
           "type": "loot_table",
           "value": "dun:gen/items/ender_eye",
-          "weight": 10
+          "weight": 8
         },
         {
           "type": "loot_table",
           "value": "dun:gen/items/gold_ingot",
-          "weight": 10
+          "weight": 8
         },
         {
           "type": "loot_table",
           "value": "dun:gen/items/netherite_scrap",
-          "weight": 10
+          "weight": 8
         },
         {
           "type": "loot_table",
           "value": "dun:gen/items/ominous_trial_key",
-          "weight": 10
+          "weight": 8
         },
         {
           "type": "loot_table",
           "value": "dun:gen/items/amethyst_shard",
-          "weight": 15
+          "weight": 16
         },
         {
           "type": "loot_table",
           "value": "dun:gen/items/fire_charge",
-          "weight": 15
+          "weight": 16
         },
         {
           "type": "loot_table",
           "value": "dun:gen/items/glistering_melon_slice",
-          "weight": 15
+          "weight": 16
         },
         {
           "type": "loot_table",
           "value": "dun:gen/items/golden_carrot",
-          "weight": 15
+          "weight": 16
         },
         {
           "type": "loot_table",
           "value": "dun:gen/items/lapis_lazuli",
-          "weight": 15
+          "weight": 16
         },
         {
           "type": "loot_table",
@@ -96,7 +96,7 @@
         {
           "type": "loot_table",
           "value": "dun:gen/items/potion_regeneration",
-          "weight": 15
+          "weight": 16
         },
         {
           "type": "loot_table",

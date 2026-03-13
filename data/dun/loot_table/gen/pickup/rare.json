@@ -66,27 +66,27 @@
         {
           "type": "loot_table",
           "value": "dun:gen/items/amethyst_shard",
-          "weight": 10
+          "weight": 14
         },
         {
           "type": "loot_table",
           "value": "dun:gen/items/fire_charge",
-          "weight": 10
+          "weight": 14
         },
         {
           "type": "loot_table",
           "value": "dun:gen/items/glistering_melon_slice",
-          "weight": 10
+          "weight": 14
         },
         {
           "type": "loot_table",
           "value": "dun:gen/items/golden_carrot",
-          "weight": 10
+          "weight": 14
         },
         {
           "type": "loot_table",
           "value": "dun:gen/items/lapis_lazuli",
-          "weight": 10
+          "weight": 14
         },
         {
           "type": "loot_table",
