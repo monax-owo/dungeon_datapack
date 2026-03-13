@@ -1,6 +1,7 @@
 # 
 
 execute unless items entity @s weapon.mainhand *[custom_data~{money:{}}] run return fail
+execute if items entity @s weapon.mainhand *[custom_data~{looting:{}}] unless data entity @s SelectedItem.components.minecraft:custom_data.looting{searched:true} run return fail
 
 function money:seller/_sell with entity @s SelectedItem.components."minecraft:custom_data".money
 
