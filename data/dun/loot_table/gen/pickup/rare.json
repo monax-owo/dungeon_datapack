@@ -6,7 +6,7 @@
         {
           "type": "loot_table",
           "value": "dun:gen/items/decorated_pot",
-          "weight": 2
+          "weight": 1
         },
         {
           "type": "loot_table",
