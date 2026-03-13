@@ -34,6 +34,11 @@ execute as @a[scores={npc_talk=550}] at @s run tellraw @s {text:"<原住民A>こ
 execute as @a[scores={npc_talk=500}] at @s run tellraw @s {text:"<原住民A>よし。交渉成立だな。頼んだぞ。"}
 execute as @a[scores={npc_talk=460}] at @s run tellraw @s {text:"<原住民A>何かわからないことがあったら聞いてくれ。わかることなら教えてやる。"}
 execute as @a[scores={npc_talk=430}] at @s run tellraw @s ["",{text:"[ガチャの説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger gacha_talk set 1001"}},"\n",{text:"[ショップの説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger shop_talk set 1001"}},"\n",{text:"[飯屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger mesiya_talk set 1001"}},"\n",{text:"[道具屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger douguya_talk set 1001"}},"\n",{text:"[鍛冶屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger kajiya_talk set 1001"}}]
+execute as @a[scores={npc_talk=430}] at @s run scoreboard players enable @s gacha_talk
+execute as @a[scores={npc_talk=430}] at @s run scoreboard players enable @s shop_talk
+execute as @a[scores={npc_talk=430}] at @s run scoreboard players enable @s mesiya_talk
+execute as @a[scores={npc_talk=430}] at @s run scoreboard players enable @s douguya_talk
+execute as @a[scores={npc_talk=430}] at @s run scoreboard players enable @s kajiya_talk
 execute as @a[scores={npc_talk=1000}] at @s run scoreboard players set @s gacha_talk 0
 execute as @a[scores={npc_talk=1000}] at @s run scoreboard players set @s shop_talk 0
 execute as @a[scores={npc_talk=1000}] at @s run scoreboard players set @s mesiya_talk 0
@@ -52,6 +57,11 @@ execute as @a[scores={gacha_talk=830}] at @s run tellraw @s {text:"<原住民A>�
 execute as @a[scores={gacha_talk=800}] at @s run tellraw @s {text:"<原住民A>魔物の討伐に行き詰まったら使ってみるのも良いかもしれんな。"}
 execute as @a[scores={gacha_talk=770}] at @s run tellraw @s {text:"<原住民A>他に聞きたいことはあるか？"}
 execute as @a[scores={gacha_talk=750}] at @s run tellraw @s ["",{text:"[ガチャの説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger gacha_talk set 1001"}},"\n",{text:"[ショップの説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger shop_talk set 1001"}},"\n",{text:"[飯屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger mesiya_talk set 1001"}},"\n",{text:"[道具屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger douguya_talk set 1001"}},"\n",{text:"[鍛冶屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger kajiya_talk set 1001"}}]
+execute as @a[scores={gacha_talk=750}] at @s run scoreboard players enable @s gacha_talk
+execute as @a[scores={gacha_talk=750}] at @s run scoreboard players enable @s shop_talk
+execute as @a[scores={gacha_talk=750}] at @s run scoreboard players enable @s mesiya_talk
+execute as @a[scores={gacha_talk=750}] at @s run scoreboard players enable @s douguya_talk
+execute as @a[scores={gacha_talk=750}] at @s run scoreboard players enable @s kajiya_talk
 execute as @a[scores={gacha_talk=1000}] at @s run scoreboard players set @s shop_talk 0
 execute as @a[scores={gacha_talk=1000}] at @s run scoreboard players set @s mesiya_talk 0
 execute as @a[scores={gacha_talk=1000}] at @s run scoreboard players set @s douguya_talk 0
@@ -75,6 +85,11 @@ execute as @a[scores={shop_talk=810}] at @s run tellraw @s {text:"<原住民A>�
 execute as @a[scores={shop_talk=770}] at @s run tellraw @s {text:"<原住民A>通貨は荷物を圧迫するから調査に行く前に預けておくことを進めておく。"}
 execute as @a[scores={shop_talk=750}] at @s run tellraw @s {text:"<原住民A>他に聞きたいことはあるか？"}
 execute as @a[scores={shop_talk=730}] at @s run tellraw @s ["",{text:"[ガチャの説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger gacha_talk set 1001"}},"\n",{text:"[ショップの説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger shop_talk set 1001"}},"\n",{text:"[飯屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger mesiya_talk set 1001"}},"\n",{text:"[道具屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger douguya_talk set 1001"}},"\n",{text:"[鍛冶屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger kajiya_talk set 1001"}}]
+execute as @a[scores={shop_talk=730}] at @s run scoreboard players enable @s gacha_talk
+execute as @a[scores={shop_talk=730}] at @s run scoreboard players enable @s shop_talk
+execute as @a[scores={shop_talk=730}] at @s run scoreboard players enable @s mesiya_talk
+execute as @a[scores={shop_talk=730}] at @s run scoreboard players enable @s douguya_talk
+execute as @a[scores={shop_talk=730}] at @s run scoreboard players enable @s kajiya_talk
 execute as @a[scores={shop_talk=1000}] at @s run scoreboard players set @s gacha_talk 0
 execute as @a[scores={shop_talk=1000}] at @s run scoreboard players set @s mesiya_talk 0
 execute as @a[scores={shop_talk=1000}] at @s run scoreboard players set @s douguya_talk 0
@@ -98,6 +113,11 @@ execute as @a[scores={mesiya_talk=820}] at @s run tellraw @s {text:"<原住民A>
 execute as @a[scores={mesiya_talk=780}] at @s run tellraw @s {text:"<原住民A>買う時には銀行から通貨を持ってくるのを忘れないようにな。"}
 execute as @a[scores={mesiya_talk=750}] at @s run tellraw @s {text:"<原住民A>他に聞きたいことはあるか？"}
 execute as @a[scores={mesiya_talk=730}] at @s run tellraw @s ["",{text:"[ガチャの説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger gacha_talk set 1001"}},"\n",{text:"[ショップの説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger shop_talk set 1001"}},"\n",{text:"[飯屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger mesiya_talk set 1001"}},"\n",{text:"[道具屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger douguya_talk set 1001"}},"\n",{text:"[鍛冶屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger kajiya_talk set 1001"}}]
+execute as @a[scores={mesiya_talk=730}] at @s run scoreboard players enable @s gacha_talk
+execute as @a[scores={mesiya_talk=730}] at @s run scoreboard players enable @s shop_talk
+execute as @a[scores={mesiya_talk=730}] at @s run scoreboard players enable @s mesiya_talk
+execute as @a[scores={mesiya_talk=730}] at @s run scoreboard players enable @s douguya_talk
+execute as @a[scores={mesiya_talk=730}] at @s run scoreboard players enable @s kajiya_talk
 execute as @a[scores={mesiya_talk=1000}] at @s run scoreboard players set @s gacha_talk 0
 execute as @a[scores={mesiya_talk=1000}] at @s run scoreboard players set @s shop_talk 0
 execute as @a[scores={mesiya_talk=1000}] at @s run scoreboard players set @s douguya_talk 0
@@ -124,6 +144,11 @@ execute as @a[scores={douguya_talk=670}] at @s run tellraw @s {text:"<原住民A
 execute as @a[scores={douguya_talk=630}] at @s run tellraw @s {text:"<原住民A>金に余裕がある時に買ってみると良い。"}
 execute as @a[scores={douguya_talk=600}] at @s run tellraw @s {text:"<原住民A>他に聞きたいことはあるか？"}
 execute as @a[scores={douguya_talk=580}] at @s run tellraw @s ["",{text:"[ガチャの説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger gacha_talk set 1001"}},"\n",{text:"[ショップの説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger shop_talk set 1001"}},"\n",{text:"[飯屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger mesiya_talk set 1001"}},"\n",{text:"[道具屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger douguya_talk set 1001"}},"\n",{text:"[鍛冶屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger kajiya_talk set 1001"}}]
+execute as @a[scores={douguya_talk=580}] at @s run scoreboard players enable @s gacha_talk
+execute as @a[scores={douguya_talk=580}] at @s run scoreboard players enable @s shop_talk
+execute as @a[scores={douguya_talk=580}] at @s run scoreboard players enable @s mesiya_talk
+execute as @a[scores={douguya_talk=580}] at @s run scoreboard players enable @s douguya_talk
+execute as @a[scores={douguya_talk=580}] at @s run scoreboard players enable @s kajiya_talk
 execute as @a[scores={douguya_talk=1000}] at @s run scoreboard players set @s gacha_talk 0
 execute as @a[scores={douguya_talk=1000}] at @s run scoreboard players set @s shop_talk 0
 execute as @a[scores={douguya_talk=1000}] at @s run scoreboard players set @s mesiya_talk 0
@@ -150,6 +175,11 @@ execute as @a[scores={kajiya_talk=670}] at @s run tellraw @s {text:"<原住民A>
 execute as @a[scores={kajiya_talk=630}] at @s run tellraw @s {text:"<原住民A>アイツの弟子が鍛冶型を売ってくれているからな。"}
 execute as @a[scores={kajiya_talk=590}] at @s run tellraw @s {text:"<原住民A>他に聞きたいことはあるか？"}
 execute as @a[scores={kajiya_talk=580}] at @s run tellraw @s ["",{text:"[ガチャの説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger gacha_talk set 1001"}},"\n",{text:"[ショップの説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger shop_talk set 1001"}},"\n",{text:"[飯屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger mesiya_talk set 1001"}},"\n",{text:"[道具屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger douguya_talk set 1001"}},"\n",{text:"[鍛冶屋の説明を聞く]",color:"green",click_event:{action:"run_command",command:"trigger kajiya_talk set 1001"}}]
+execute as @a[scores={kajiya_talk=580}] at @s run scoreboard players enable @s gacha_talk
+execute as @a[scores={kajiya_talk=580}] at @s run scoreboard players enable @s shop_talk
+execute as @a[scores={kajiya_talk=580}] at @s run scoreboard players enable @s mesiya_talk
+execute as @a[scores={kajiya_talk=580}] at @s run scoreboard players enable @s douguya_talk
+execute as @a[scores={kajiya_talk=580}] at @s run scoreboard players enable @s kajiya_talk
 execute as @a[scores={kajiya_talk=1000}] at @s run scoreboard players set @s gacha_talk 0
 execute as @a[scores={kajiya_talk=1000}] at @s run scoreboard players set @s shop_talk 0
 execute as @a[scores={kajiya_talk=1000}] at @s run scoreboard players set @s mesiya_talk 0
