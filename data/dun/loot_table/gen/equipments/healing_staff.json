@@ -38,8 +38,7 @@
                   "name": {
                     "text": "再生の杖",
                     "color": "#FF5CB6"
-                  },
-                  "fakeable": true
+                  }
                 },
                 "money": {
                   "price": 400

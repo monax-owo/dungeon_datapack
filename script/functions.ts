@@ -183,7 +183,7 @@ export async function gen_equipment_loot_tables() {
     };
 
     for (const v of table.items) {
-      const loot_table = gen_item_loot_table(v, "equipments");
+      const loot_table = gen_equipment_loot_table(v, "equipments");
       if (!loot_table) continue;
 
       const file_path = path.join(
@@ -275,6 +275,73 @@ function merge_functions(data: LootTable<ItemEntry>) {
   console.log(JSON.stringify(map.values().toArray()));
 
   return out;
+}
+
+function gen_equipment_loot_table(v: Item, namespace: string) {
+  const { file_name, id, tier, price, name, lore, fn } = v;
+
+  if (!tier || !price || !name) {
+    console.log("Missing required fields at:", id);
+    return;
+  }
+
+  const fmt_name =
+    typeof name === "string" ? { text: name, color: "white" } : name;
+
+  let data: LootTable<ItemEntry> = {
+    pools: [
+      {
+        rolls: 1,
+        entries: [
+          {
+            type: "minecraft:item",
+            name: "minecraft:" + id,
+            functions: [
+              {
+                function: "minecraft:set_components",
+                components: {
+                  "minecraft:custom_name": {
+                    text: DEFAULT_NAME,
+                    italic: false,
+                  },
+                  "minecraft:item_name": "",
+                  "minecraft:rarity": "common",
+                },
+              },
+              {
+                function: "minecraft:set_custom_data",
+                tag: {
+                  looting: {
+                    tier: tier,
+                    name: fmt_name,
+                  },
+                  money: {
+                    price,
+                  },
+                  loot_table: `${NAMESPACE}:${LOOT_TABLE_PATH}/${namespace}/${file_name}`,
+                },
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  };
+
+  if (lore && lore.length != 0 && lore[0] != "") {
+    data.pools[0].entries[0].functions[1].tag.looting.lore = lore;
+  }
+
+  if (fn.length != 0) {
+    data.pools[0].entries[0].functions =
+      data.pools[0].entries[0].functions.concat(fn);
+  }
+
+  data = merge_functions(data);
+
+  console.log("generate", id, "\n");
+
+  return data;
 }
 
 function quality(n: number): number {

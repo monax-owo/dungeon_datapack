@@ -36,8 +36,7 @@
                   "name": {
                     "text": "クソデカ鈍器",
                     "color": "red"
-                  },
-                  "fakeable": true
+                  }
                 },
                 "money": {
                   "price": 1000

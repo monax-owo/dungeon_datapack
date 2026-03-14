@@ -36,8 +36,7 @@
                   "name": {
                     "text": "召雷の剣",
                     "color": "yellow"
-                  },
-                  "fakeable": true
+                  }
                 },
                 "money": {
                   "price": 200

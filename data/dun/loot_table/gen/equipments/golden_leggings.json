@@ -26,8 +26,7 @@
                   "name": {
                     "text": "金のレギンス",
                     "color": "white"
-                  },
-                  "fakeable": true
+                  }
                 },
                 "money": {
                   "price": 200

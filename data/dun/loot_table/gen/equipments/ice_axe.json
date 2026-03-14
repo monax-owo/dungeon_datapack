@@ -36,8 +36,7 @@
                   "name": {
                     "text": "ダイヤモンドの斧",
                     "color": "white"
-                  },
-                  "fakeable": true
+                  }
                 },
                 "money": {
                   "price": 400
