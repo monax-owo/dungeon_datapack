@@ -1,0 +1,15 @@
+{
+  "parent": "dun:root",
+  "display": {
+    "description": "偽物を見つける",
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": "It's fake!"
+  },
+  "criteria": {
+    "": {
+      "trigger": "impossible"
+    }
+  }
+}

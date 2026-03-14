@@ -16,6 +16,8 @@ execute store result score #tier util run data get entity @s SelectedItem.compon
 execute if score #tier util matches 1..3 run tellraw @s ["偽物だった…"]
 execute if score #tier util matches 4.. run tellraw @s ["偽物だけど高そうだ"]
 
+advancement grant @s only dun:misc/fake
+
 function looting:apply_item
 
 # clear
