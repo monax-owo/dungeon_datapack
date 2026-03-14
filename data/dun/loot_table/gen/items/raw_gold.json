@@ -26,8 +26,7 @@
                   "name": {
                     "text": "金色の石",
                     "color": "white"
-                  },
-                  "fakeable": true
+                  }
                 },
                 "money": {
                   "price": 300

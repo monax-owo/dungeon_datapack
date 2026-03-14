@@ -138,7 +138,7 @@ function gen_item_loot_table(v: Item, namespace: string) {
                   looting: {
                     tier: tier,
                     name: fmt_name,
-                    fakeable: true,
+                    ...(tier >= 3 && { fakeable: true }),
                   },
                   money: {
                     price,
