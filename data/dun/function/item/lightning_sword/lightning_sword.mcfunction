@@ -1,3 +1,0 @@
-# 
-
-function dun:item/lightning_sword/_summon_lightning

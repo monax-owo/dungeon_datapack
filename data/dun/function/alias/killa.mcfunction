@@ -1,3 +1,0 @@
-# 
-
-kill @e[tag=dun]

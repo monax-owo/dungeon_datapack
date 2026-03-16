@@ -1,11 +1,8 @@
 {
   "values": [
     "#flag:load",
-    "#usable:load",
     "#uuid_sel:load",
     "#util:load",
-    "#money:load",
-    "#dun:load",
     "#looting:load",
     "#portal:load"
   ]
