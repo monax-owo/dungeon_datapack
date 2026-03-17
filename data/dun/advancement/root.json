@@ -1,11 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "chest"
+      "id": "cherry_leaves"
     },
-    "title": "Welcome to Dungeon!",
-    "description": "ようこそ",
-    "background": "block/stone_bricks"
+    "title": "ようこそ",
+    "description": "",
+    "announce_to_chat": false,
+    "background": "block/cherry_planks"
   },
   "criteria": {
     "": {
